@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HMSpecialOrderActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hmOrderSummaryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Order Summary"
+            android:textAlignment="center"
+            android:textColor="#222020"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/hmTableNumtextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Table No#"
+            android:textAlignment="center"
+            android:textColor="#222020"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/hmOrderSummaryTextView"
+            app:layout_constraintTop_toBottomOf="@+id/hmOrderSummaryTextView" />
+
+        <TextView
+            android:id="@+id/hmTableNumValuetextView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="1"
+            android:background="@drawable/round_border"
+            android:textAlignment="center"
+            android:textColor="#222020"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/hmTableNumtextView"
+            app:layout_constraintEnd_toEndOf="@+id/hmOrderSummaryTextView"
+            app:layout_constraintStart_toEndOf="@+id/hmTableNumtextView"
+            app:layout_constraintTop_toTopOf="@+id/hmTableNumtextView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/hmOrderNumtextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Order No#"
+            android:textAlignment="center"
+            android:textColor="#222020"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/hmTableNumtextView"
+            app:layout_constraintStart_toStartOf="@+id/hmTableNumtextView"
+            app:layout_constraintTop_toBottomOf="@+id/hmTableNumtextView" />
+
+        <TextView
+            android:id="@+id/hmOrderNumValuetextView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="1"
+            android:background="@drawable/round_border"
+            android:textColor="#222020"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/hmOrderNumtextView"
+            app:layout_constraintEnd_toEndOf="@+id/hmTableNumValuetextView"
+            app:layout_constraintStart_toStartOf="@+id/hmTableNumValuetextView"
+            app:layout_constraintTop_toTopOf="@+id/hmOrderNumtextView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/hmSpecialOrderSummaryrecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hmOrderNumtextView" />
+
+        <Button
+            android:id="@+id/hmSpecialConfirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/round_green"
+            android:text="Confirm"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#edf0f5"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.364"
+            app:layout_constraintStart_toStartOf="@+id/hmSpecialOrderSummaryrecyclerView"
+            app:layout_constraintTop_toBottomOf="@+id/hmSpecialOrderSummaryrecyclerView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/hmSpecialDiscardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/round_red"
+            android:text="Discard"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#edf0f5"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintStart_toEndOf="@+id/hmSpecialConfirmButton"
+            app:layout_constraintTop_toBottomOf="@+id/hmSpecialOrderSummaryrecyclerView"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
