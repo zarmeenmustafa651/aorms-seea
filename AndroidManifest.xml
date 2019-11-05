@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HMSpecialOrderActivity"
+            android:label="Hall Manager">
+
+        </activity>
+        <activity
+            android:name=".KM_Recycle_Page"
+            android:label="Kitchen Manager">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity
+            android:name=".HM_Recycle_Page"
+            android:label="Hall Manager">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity
+            android:name=".KMSpecialOrderActivity"
+            android:label="Kitchen Manager">
+        </activity>
+
+        <activity
+            android:name=".HM_DishSelect"
+            android:label="Hall Manager"/>
+        <activity
+            android:name=".KM_DishSelect"
+            android:label="Kitchen Manager"/>
+
+    </application>
+
+</manifest>
