@@ -1,15 +1,39 @@
-Color Scheme
-Toolbar text color: #ffffff
-Toolbars and buttons : #27AE60
-Remove button : #ff3b30
+Color Scheme:
+  Toolbar text color: #ffffff
+  Toolbars and buttons : #27AE60
+  Remove button : #ff3b30
 
-Font 
-Arial sans sarif
 
-Others
-1-Make Buttons rounded retangle.
-2-Use back icon from android studio assets to go back to pervious activity.
-3-Download the project "AORMS" from "Master" to make changes and upload in your "specified Branch".
-4-make every activity in "Landscape" .
-5-Use logo file (logo.png and Logo_with_transparent_background.png) as logo where needed.
-6-Make sure You have implemented all indents.
+Font:
+  Arial sans sarif
+
+
+Others:
+  1-Make Buttons rounded retangle.
+  2-Use back icon from android studio assets to go back to pervious activity.
+  3-Download the project "AORMS" from "Master" to make changes and upload in your "specified Branch".
+  4-make every activity in "Landscape" .
+  5-Use logo file (logo.png and Logo_with_transparent_background.png) as logo where needed.
+  6-Make sure You have implemented all indents.
+
+
+Rounded Rectangle button code (create a file rounded_button.xml and copy paste this code):
+  <?xml version="1.0" encoding="utf-8"?>
+  <shape xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:shape="rectangle">
+      <!-- redButton is #ff3b30 here. -->
+      <solid android:color="@color/redButton" />
+      <!-- buttonRadius is 8dp here. -->
+      <corners android:bottomRightRadius="@dimen/buttonRadius"
+          android:bottomLeftRadius="@dimen/buttonRadius"  
+          android:topRightRadius="@dimen/buttonRadius"
+          android:topLeftRadius="@dimen/buttonRadius"/>
+  </shape>
+
+
+Color redButton code(add this line in colors.xml):
+  <color name="redButton">#893749</color>
+
+
+Dimension buttonRadius(add this line in dimens.xml):
+  <dimen name="buttonRadius">18dp</dimen>
