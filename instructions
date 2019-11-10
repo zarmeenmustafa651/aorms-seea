@@ -23,7 +23,7 @@ Rounded Rectangle button code (create a file rounded_button.xml and copy paste t
   android:shape="rectangle">
       <!-- redButton is #ff3b30 here. -->
       <solid android:color="@color/redButton" />
-      <!-- buttonRadius is 8dp here. -->
+      <!-- buttonRadius is 18dp here. -->
       <corners android:bottomRightRadius="@dimen/buttonRadius"
           android:bottomLeftRadius="@dimen/buttonRadius"  
           android:topRightRadius="@dimen/buttonRadius"
