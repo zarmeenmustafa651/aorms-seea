@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.muhammadzain.myapplication">
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.aorms">
+
+    <dist:module dist:instant="true" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +26,44 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".HMSpecialOrderActivity"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".KM_Recycle_Page"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".HM_Recycle_Page"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".KMSpecialOrderActivity"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".HM_DishSelect"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".KM_DishSelect"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape">
         </activity>
     </application>
 

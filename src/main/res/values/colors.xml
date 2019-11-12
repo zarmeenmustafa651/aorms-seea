@@ -5,13 +5,13 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorLight">#ffffff</color>
     <color name="colorgray">#575555</color>
-    <color name="background">#ffffff</color>
-    <color name="redButton">#893749</color>
-    <color name="green">#30d158</color>
+    <color name="background">#ffffff</color>    
+	<color name="green">#30d158</color>
     <color name="red">#ff3b30</color>
-    <color name="bg_login">#687089</color>
+    <colzor name="bg_login">#687089</color>
     <color name="bg_main">#428bca</color>
     <color name="white">#ffffff</color>
     <color name="btn_login">#30d158</color>
+    <color name="redButton">#ff3b30</color>
+    <color name="greenButton"> #27AE60</color>
 </resources>
-
