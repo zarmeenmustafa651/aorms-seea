@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="input">40dp</dimen>
-    <dimen name="input_text">20sp</dimen>
-    <dimen name="input_padding">20sp</dimen>
-    <dimen name="input_margin">100dp</dimen>
-</resources>
