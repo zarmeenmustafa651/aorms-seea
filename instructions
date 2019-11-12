@@ -32,7 +32,7 @@ Rounded Rectangle button code (create a file rounded_button.xml and copy paste t
 
 
 Color redButton code(add this line in colors.xml):
-  <color name="redButton">#893749</color>
+  <color name="redButton">#ff3b30</color>
 
 
 Dimension buttonRadius(add this line in dimens.xml):
