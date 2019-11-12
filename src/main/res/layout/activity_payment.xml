@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="?attr/colorPrimary"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="center"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginLeft="500dp"
+        android:text="Payment"
+        android:textColor="@color/colorLight"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="center" />
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="930dp"
+        android:layout_height="501dp"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="100px"
+        android:stretchColumns="3"
+        app:layout_anchor="@+id/tableLayout"
+        app:layout_anchorGravity="center">
+
+        <TableRow
+            android:id="@+id/fRow"
+            android:layout_width="721dp"
+            android:layout_height="120px"
+            android:layout_margin="3px"
+            android:background="#8527AE60" >
+
+            <!--             first element of the row-->
+
+
+
+            <!--             Second element order detail -->
+
+            <TextView
+                android:id="@+id/pinLock_01"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="10px"
+                android:text="1"
+                android:textColor="@color/colorLight"
+                android:textSize="50sp"
+
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="561dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Order ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Table ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tV1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Amount:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:text="54"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="25dp"
+                    android:text="6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Rs. 2500"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/col3"
+                android:layout_width="256dp"
+                android:layout_height="103px">
+
+                <CheckBox
+                    android:id="@+id/cB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Payment Completed" />
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:id="@+id/firstR"
+            android:layout_width="721dp"
+            android:layout_height="120px"
+            android:layout_margin="3px"
+            android:background="#8527AE60" >
+
+            <!--             first element of the row-->
+
+
+
+            <!--             Second element order detail -->
+
+            <TextView
+                android:id="@+id/pinLock"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="10px"
+                android:text="2"
+                android:textColor="@color/colorLight"
+                android:textSize="50sp"
+
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/col2"
+                android:layout_width="561dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textV3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Order ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Table ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Amount:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:text="54"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="25dp"
+                    android:text="6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Rs. 2500"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="256dp"
+                android:layout_height="103px">
+
+                <CheckBox
+                    android:id="@+id/checkB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Payment Completed" />
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/first"
+            android:layout_width="721dp"
+            android:layout_height="120px"
+            android:layout_margin="3px"
+            android:background="#8527AE60" >
+
+            <!--             first element of the row-->
+
+
+
+            <!--             Second element order detail -->
+
+            <TextView
+                android:id="@+id/Tv_pinLock_01"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="10px"
+                android:text="3"
+                android:textColor="@color/colorLight"
+                android:textSize="50sp"
+
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/column2"
+                android:layout_width="561dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Order ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Table ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Amount:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:text="54"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="25dp"
+                    android:text="6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Rs. 2500"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/column3"
+                android:layout_width="256dp"
+                android:layout_height="103px">
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Payment Completed" />
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/firstRow"
+            android:layout_width="721dp"
+            android:layout_height="120px"
+            android:layout_margin="3px"
+            android:background="#8527AE60" >
+
+            <!--             first element of the row-->
+
+
+
+            <!--             Second element order detail -->
+
+            <TextView
+                android:id="@+id/Tv_pinLock_011"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="10px"
+                android:text="4"
+                android:textColor="@color/colorLight"
+                android:textSize="50sp"
+
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/column21"
+                android:layout_width="561dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Order ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Table ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Amount:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:text="54"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="25dp"
+                    android:text="6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Rs. 2500"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/column30"
+                android:layout_width="256dp"
+                android:layout_height="103px">
+
+                <CheckBox
+                    android:id="@+id/checkBox20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Payment Completed" />
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:id="@+id/firstRow90"
+            android:layout_width="721dp"
+            android:layout_height="120px"
+            android:layout_margin="3px"
+            android:background="#8527AE60" >
+
+            <!--             first element of the row-->
+
+
+
+            <!--             Second element order detail -->
+
+            <TextView
+                android:id="@+id/Tv_pinLock_07"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="10px"
+                android:text="5"
+                android:textColor="@color/colorLight"
+                android:textSize="50sp"
+
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/colu2"
+                android:layout_width="561dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textVi3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Order ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Table ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Amount:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVi4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:text="54"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVi5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="25dp"
+                    android:text="6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVi6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Rs. 2500"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/colu3"
+                android:layout_width="256dp"
+                android:layout_height="103px">
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Payment Completed" />
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="721dp"
+            android:layout_height="120px"
+            android:layout_margin="3px"
+            android:background="#8527AE60" >
+
+            <!--             first element of the row-->
+
+
+
+            <!--             Second element order detail -->
+
+            <TextView
+                android:id="@+id/Tv_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="10px"
+                android:text="6"
+                android:textColor="@color/colorLight"
+                android:textSize="50sp"
+
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/co2"
+                android:layout_width="561dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tV8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="Order ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Table ID:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Amount:"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tV4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:text="54"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="25dp"
+                    android:text="6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/td"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Rs. 2500"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cy"
+                android:layout_width="256dp"
+                android:layout_height="103px">
+
+                <CheckBox
+                    android:id="@+id/x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Payment Completed" />
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
