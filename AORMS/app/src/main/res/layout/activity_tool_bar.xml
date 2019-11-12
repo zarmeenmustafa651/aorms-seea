@@ -4,11 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
-    android:layout_height="65dp"
+    android:layout_height="80dp"
     android:background="@color/bg_login"
     android:minHeight="?attr/actionBarSize"
     android:theme="?attr/actionBarTheme"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.005" />
+    app:layout_constraintTop_toTopOf="parent"/>
