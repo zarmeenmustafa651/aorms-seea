@@ -1,0 +1,85 @@
+{
+  "Chef" : {
+    "ChefID" : 1,
+    "Name" : "a",
+    "PhoneNo" : "06287376483",
+    "Speciality" : "Chinese",
+    "Threshold" : 2
+  },
+  "Dish Details" : {
+    "DishID" : 1,
+    "IngredientID" : 1,
+    "Quantity" : 1
+  },
+  "Dishes" : {
+    "DishCost" : 1,
+    "DishID" : 1,
+    "DishName" : "a",
+    "DishType" : "pakistani",
+    "PrepTime" : 30
+  },
+  "Hall Manager" : {
+    "HMaddress" : "abc",
+    "HMname" : "a",
+    "HMphone" : "03344498789",
+    "Password" : "abcd123#",
+    "UserID" : 1,
+    "Username" : "b"
+  },
+  "Ingredient" : {
+    "Cost" : 1,
+    "EntryDate" : "10/1/2019",
+    "IngredientID" : 1,
+    "Name" : "a",
+    "Quantity" : 1,
+    "Threshold" : 2
+  },
+  "Kitchen Manager" : {
+    "KMaddress" : "sdf",
+    "KMname" : "a",
+    "KMphone" : "02345678910",
+    "Password" : "abcd123#",
+    "UserID" : 1,
+    "Username" : "a"
+  },
+  "Order" : {
+    "OrderID" : 1,
+    "OrderTime" : "12:00",
+    "Status" : "served",
+    "TableID" : 1
+  },
+  "Order Details" : {
+    "DishID" : 1,
+    "EmployeeID" : 1,
+    "OrderAmount" : 23,
+    "OrderBillStatus" : true,
+    "OrderID" : 1,
+    "OrderType" : "a",
+    "Priority" : 2,
+    "Quantity" : 1
+  },
+  "Order Queue" : {
+    "ChefID" : 1,
+    "DishID" : 1,
+    "DishStatus" : "cooked",
+    "OrderID" : 1
+  },
+  "Table" : {
+    "TableID" : 1,
+    "TabletID" : 1,
+    "WaiterID" : 1
+  },
+  "User" : {
+    "Designation" : "manager",
+    "Name" : "a",
+    "Password" : "abcd123#",
+    "UserID" : 1
+  },
+  "Waiter" : {
+    "Address" : "abc",
+    "Name" : "a",
+    "PhoneNo" : "08738629748",
+    "TableID" : 1,
+    "UserID" : 1
+  }
+}
