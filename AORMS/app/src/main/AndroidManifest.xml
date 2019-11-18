@@ -14,7 +14,7 @@ xmlns:dist="http://schemas.android.com/apk/distribution"
         <activity android:name=".AssignWaiterActivity" />
         <activity android:name=".ThresholdActivity" />
         <activity android:name=".NotificationActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"/>
 
         <activity android:name=".ChefListActivity"
             android:label="Chef List" >
@@ -35,13 +35,7 @@ xmlns:dist="http://schemas.android.com/apk/distribution"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
-        <activity android:name=".ChefQueActivity"/>    
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        <activity android:name=".ChefQueActivity"/>  
         <activity android:name=".Addinventory"></activity>
         <activity android:name=".Pakistani" />
         <activity android:name=".Chinese" />
