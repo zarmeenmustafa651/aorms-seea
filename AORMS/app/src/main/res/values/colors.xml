@@ -8,7 +8,7 @@
     <color name="background">#ffffff</color>    
 	<color name="green">#30d158</color>
     <color name="red">#ff3b30</color>
-    <colzor name="bg_login">#687089</color>
+    <color name="bg_login">#687089</color>
     <color name="bg_main">#428bca</color>
     <color name="white">#ffffff</color>
     <color name="btn_login">#30d158</color>
