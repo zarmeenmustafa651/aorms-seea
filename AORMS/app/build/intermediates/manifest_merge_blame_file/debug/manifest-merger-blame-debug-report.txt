@@ -30,138 +30,139 @@
 20-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:10:9-54
 21        android:supportsRtl="true"
 21-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:11:9-35
-22        android:theme="@style/AppTheme" >
-22-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:12:9-40
-23        <activity android:name="com.example.aorms.PaymentActivity" />
-23-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:13:9-62
-23-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:13:19-50
-24        <activity android:name="com.example.aorms.AssignWaiterActivity" />
-24-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:14:9-58
-24-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:14:19-55
-25        <activity android:name="com.example.aorms.ThresholdActivity" />
-25-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:15:9-55
-25-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:15:19-52
-26        <activity android:name="com.example.aorms.NotificationActivity" />
-26-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:16:9-58
-26-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:16:19-55
-27        <activity android:name="com.example.aorms.LoginActivity" />
-27-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:17:9-50
-27-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:17:19-48
-28        <activity
-28-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:19:9-22:20
-29            android:name="com.example.aorms.ChefListActivity"
-29-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:19:19-51
-30            android:label="Chef List" >
-30-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:20:13-38
-31        </activity>
-32        <activity
-32-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:24:9-32:20
-33            android:name="com.example.aorms.MainActivity"
-33-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:24:19-47
-34            android:screenOrientation="landscape"
-34-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:25:13-50
-35            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-35-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:26:13-69
-36            <intent-filter>
-36-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:27:9-31:25
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:28:13-65
-37-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:28:21-62
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:30:13-73
-39-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:30:23-70
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:33:9-35:71
-43            android:name="com.example.aorms.Report"
-43-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:33:19-41
-44            android:screenOrientation="landscape"
-44-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:34:13-50
-45            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-45-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:35:13-69
-46        <activity android:name="com.example.aorms.ChefQueActivity" />
-46-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:37:9-52
-46-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:37:19-50
-47        <activity android:name="com.example.aorms.Addinventory" />
-47-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:38:9-59
-47-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:38:19-47
-48        <activity android:name="com.example.aorms.Pakistani" />
-48-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:39:9-47
-48-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:39:19-44
-49        <activity android:name="com.example.aorms.Chinese" />
-49-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:40:9-45
-49-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:40:19-42
-50        <activity android:name="com.example.aorms.Continental" />
-50-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:41:9-49
-50-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:41:19-46
-51        <activity android:name="com.example.aorms.AddMenu" />
-51-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:9-45
-51-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:19-42
-52        <activity android:name="com.example.aorms.AddUser" />
-52-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:9-45
-52-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:19-42
-53        <activity android:name="com.example.aorms.Login" />
-53-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:44:9-43
-53-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:44:19-40
-54        <activity android:name="com.example.aorms.Adder" />
-54-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:9-43
-54-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:19-40
-55        <activity
-55-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:47:9-51:20
-56            android:name="com.example.aorms.HMSpecialOrderActivity"
-56-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:48:13-51
-57            android:label="Hall Manager"
-57-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:49:13-41
-58            android:screenOrientation="landscape" >
-58-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:50:13-50
-59        </activity>
-60        <activity
-60-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:53:9-58:20
-61            android:name="com.example.aorms.KM_Recycle_Page"
-61-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:54:13-44
-62            android:label="Kitchen Manager"
-62-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:55:13-44
-63            android:screenOrientation="landscape" >
-63-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:56:13-50
-64        </activity>
-65        <activity
-65-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:60:9-65:20
-66            android:name="com.example.aorms.HM_Recycle_Page"
-66-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:61:13-44
-67            android:label="Hall Manager"
-67-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:62:13-41
-68            android:screenOrientation="landscape" >
-68-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:63:13-50
-69        </activity>
-70        <activity
-70-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:67:9-71:20
-71            android:name="com.example.aorms.KMSpecialOrderActivity"
-71-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:68:13-51
-72            android:label="Kitchen Manager"
-72-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:69:13-44
-73            android:screenOrientation="landscape" >
-73-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:70:13-50
-74        </activity>
-75        <activity
-75-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:73:9-78:20
-76            android:name="com.example.aorms.HM_DishSelect"
-76-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:74:13-42
-77            android:label="Hall Manager"
-77-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:75:13-41
-78            android:screenOrientation="landscape" >
-78-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:76:13-50
-79        </activity>
-80        <activity
-80-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:80:9-84:20
-81            android:name="com.example.aorms.KM_DishSelect"
-81-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:81:13-42
-82            android:label="Kitchen Manager"
-82-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:82:13-44
-83            android:screenOrientation="landscape" >
-83-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:83:13-50
-84        </activity>
-85    </application>
-86
-87</manifest>
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:12:9-40
+24        <activity android:name="com.example.aorms.PaymentActivity" />
+24-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:13:9-62
+24-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:13:19-50
+25        <activity android:name="com.example.aorms.AssignWaiterActivity" />
+25-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:14:9-58
+25-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:14:19-55
+26        <activity android:name="com.example.aorms.ThresholdActivity" />
+26-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:15:9-55
+26-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:15:19-52
+27        <activity android:name="com.example.aorms.NotificationActivity" />
+27-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:16:9-58
+27-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:16:19-55
+28        <activity android:name="com.example.aorms.LoginActivity" />
+28-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:17:9-50
+28-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:17:19-48
+29        <activity
+29-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:19:9-22:20
+30            android:name="com.example.aorms.ChefListActivity"
+30-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:19:19-51
+31            android:label="Chef List" >
+31-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:20:13-38
+32        </activity>
+33        <activity
+33-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:24:9-32:20
+34            android:name="com.example.aorms.MainActivity"
+34-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:24:19-47
+35            android:screenOrientation="landscape"
+35-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:25:13-50
+36            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+36-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:26:13-69
+37            <intent-filter>
+37-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:27:9-31:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:28:13-65
+38-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:28:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:30:13-73
+40-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:30:23-70
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:33:9-35:71
+44            android:name="com.example.aorms.Report"
+44-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:33:19-41
+45            android:screenOrientation="landscape"
+45-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:34:13-50
+46            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+46-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:35:13-69
+47        <activity android:name="com.example.aorms.ChefQueActivity" />
+47-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:37:9-52
+47-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:37:19-50
+48        <activity android:name="com.example.aorms.Addinventory" />
+48-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:38:9-59
+48-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:38:19-47
+49        <activity android:name="com.example.aorms.Pakistani" />
+49-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:39:9-47
+49-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:39:19-44
+50        <activity android:name="com.example.aorms.Chinese" />
+50-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:40:9-45
+50-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:40:19-42
+51        <activity android:name="com.example.aorms.Continental" />
+51-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:41:9-49
+51-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:41:19-46
+52        <activity android:name="com.example.aorms.AddMenu" />
+52-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:9-45
+52-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:19-42
+53        <activity android:name="com.example.aorms.AddUser" />
+53-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:9-45
+53-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:19-42
+54        <activity android:name="com.example.aorms.Login" />
+54-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:44:9-43
+54-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:44:19-40
+55        <activity android:name="com.example.aorms.Adder" />
+55-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:9-43
+55-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:19-40
+56        <activity
+56-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:47:9-51:20
+57            android:name="com.example.aorms.HMSpecialOrderActivity"
+57-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:48:13-51
+58            android:label="Hall Manager"
+58-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:49:13-41
+59            android:screenOrientation="landscape" >
+59-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:50:13-50
+60        </activity>
+61        <activity
+61-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:53:9-58:20
+62            android:name="com.example.aorms.KM_Recycle_Page"
+62-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:54:13-44
+63            android:label="Kitchen Manager"
+63-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:55:13-44
+64            android:screenOrientation="landscape" >
+64-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:56:13-50
+65        </activity>
+66        <activity
+66-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:60:9-65:20
+67            android:name="com.example.aorms.HM_Recycle_Page"
+67-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:61:13-44
+68            android:label="Hall Manager"
+68-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:62:13-41
+69            android:screenOrientation="landscape" >
+69-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:63:13-50
+70        </activity>
+71        <activity
+71-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:67:9-71:20
+72            android:name="com.example.aorms.KMSpecialOrderActivity"
+72-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:68:13-51
+73            android:label="Kitchen Manager"
+73-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:69:13-44
+74            android:screenOrientation="landscape" >
+74-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:70:13-50
+75        </activity>
+76        <activity
+76-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:73:9-78:20
+77            android:name="com.example.aorms.HM_DishSelect"
+77-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:74:13-42
+78            android:label="Hall Manager"
+78-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:75:13-41
+79            android:screenOrientation="landscape" >
+79-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:76:13-50
+80        </activity>
+81        <activity
+81-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:80:9-84:20
+82            android:name="com.example.aorms.KM_DishSelect"
+82-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:81:13-42
+83            android:label="Kitchen Manager"
+83-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:82:13-44
+84            android:screenOrientation="landscape" >
+84-->C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:83:13-50
+85        </activity>
+86    </application>
+87
+88</manifest>
