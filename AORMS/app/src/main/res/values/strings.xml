@@ -1,5 +1,4 @@
 <resources>
-    <string name="action_sign_in_short">Register</string>
     <string name="user_name">Username</string>
     <string name="email">Email</string>
     <string name="hint_email">Email</string>

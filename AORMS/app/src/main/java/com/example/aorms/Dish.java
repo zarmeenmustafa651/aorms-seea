@@ -7,9 +7,14 @@ public class Dish {
     String name;
 Drawable img;
     String type;
+
     public Dish(String n, String t){
         this.name = n;
         this.type = t;
+    }
+
+    public Dish() {
+
     }
 
     public String getName() {

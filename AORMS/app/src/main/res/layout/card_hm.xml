@@ -23,7 +23,9 @@
             android:text="Table No:"
             android:textColor="#687089"
             android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/imageView_1"
+            android:layout_marginLeft="23dp" />
 
         <TextView
             android:id="@+id/Ono_hm"
@@ -39,7 +41,8 @@
             android:text="Order No:"
             android:textColor="#687089"
             android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/tno_hm" />
 
         <ImageView
             android:id="@+id/imageView_1"
@@ -51,7 +54,9 @@
             android:layout_marginTop="16dp"
             android:paddingTop="12dp"
             android:paddingBottom="16dp"
-            card_view:srcCompat="@drawable/logo" />
+            card_view:srcCompat="@drawable/logo"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="1dp" />
 
 
     </RelativeLayout>

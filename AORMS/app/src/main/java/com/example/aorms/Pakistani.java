@@ -1,9 +1,9 @@
-package com.example.muhammadzain.myapplication;
-
-import android.support.v7.app.AppCompatActivity;
+package com.example.aorms;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Pakistani extends AppCompatActivity {
 

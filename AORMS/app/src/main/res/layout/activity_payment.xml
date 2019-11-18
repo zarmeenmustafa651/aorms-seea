@@ -82,7 +82,8 @@
                     android:layout_marginStart="50dp"
                     android:text="Order ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/text2"
@@ -92,7 +93,8 @@
                     android:layout_marginTop="25dp"
                     android:text="Table ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/tV1"
@@ -102,7 +104,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Amount:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/text4"
@@ -111,7 +114,8 @@
                     android:layout_marginStart="200dp"
                     android:text="54"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/text5"
@@ -121,7 +125,8 @@
                     android:layout_marginTop="25dp"
                     android:text="6"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/text6"
@@ -131,7 +136,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Rs. 2500"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
 
             </androidx.cardview.widget.CardView>
@@ -190,7 +196,8 @@
                     android:layout_marginStart="50dp"
                     android:text="Order ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textV2"
@@ -200,7 +207,8 @@
                     android:layout_marginTop="25dp"
                     android:text="Table ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/tv"
@@ -210,7 +218,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Amount:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/t4"
@@ -219,7 +228,8 @@
                     android:layout_marginStart="200dp"
                     android:text="54"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/t5"
@@ -229,7 +239,8 @@
                     android:layout_marginTop="25dp"
                     android:text="6"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/t6"
@@ -239,7 +250,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Rs. 2500"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
 
             </androidx.cardview.widget.CardView>
@@ -297,7 +309,8 @@
                     android:layout_marginStart="50dp"
                     android:text="Order ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -307,7 +320,8 @@
                     android:layout_marginTop="25dp"
                     android:text="Table ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -317,7 +331,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Amount:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -326,7 +341,8 @@
                     android:layout_marginStart="200dp"
                     android:text="54"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -336,7 +352,8 @@
                     android:layout_marginTop="25dp"
                     android:text="6"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -346,7 +363,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Rs. 2500"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
 
             </androidx.cardview.widget.CardView>
@@ -402,7 +420,8 @@
                     android:layout_marginStart="50dp"
                     android:text="Order ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -412,7 +431,8 @@
                     android:layout_marginTop="25dp"
                     android:text="Table ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textView11"
@@ -422,7 +442,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Amount:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textView40"
@@ -431,7 +452,8 @@
                     android:layout_marginStart="200dp"
                     android:text="54"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/textView50"
@@ -441,7 +463,8 @@
                     android:layout_marginTop="25dp"
                     android:text="6"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/textView60"
@@ -451,7 +474,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Rs. 2500"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
 
             </androidx.cardview.widget.CardView>
@@ -510,7 +534,8 @@
                     android:layout_marginStart="50dp"
                     android:text="Order ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textVi2"
@@ -520,7 +545,8 @@
                     android:layout_marginTop="25dp"
                     android:text="Table ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textVi"
@@ -530,7 +556,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Amount:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/textVi4"
@@ -539,7 +566,8 @@
                     android:layout_marginStart="200dp"
                     android:text="54"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/textVi5"
@@ -549,7 +577,8 @@
                     android:layout_marginTop="25dp"
                     android:text="6"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/textVi6"
@@ -559,7 +588,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Rs. 2500"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
 
             </androidx.cardview.widget.CardView>
@@ -617,7 +647,8 @@
                     android:layout_marginStart="50dp"
                     android:text="Order ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/tV2"
@@ -627,7 +658,8 @@
                     android:layout_marginTop="25dp"
                     android:text="Table ID:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/tV"
@@ -637,7 +669,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Amount:"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="50dp" />
 
                 <TextView
                     android:id="@+id/tV4"
@@ -646,7 +679,8 @@
                     android:layout_marginStart="200dp"
                     android:text="54"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/tb6"
@@ -656,7 +690,8 @@
                     android:layout_marginTop="25dp"
                     android:text="6"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
                 <TextView
                     android:id="@+id/td"
@@ -666,7 +701,8 @@
                     android:layout_marginTop="50dp"
                     android:text="Rs. 2500"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="200dp" />
 
 
             </androidx.cardview.widget.CardView>
