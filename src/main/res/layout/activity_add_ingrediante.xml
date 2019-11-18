@@ -5,7 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AddIngrediante">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="728dp"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="500dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="                       Please Provide Dish Information!!!"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
 
     <TextView
         android:id="@+id/userNameView"
@@ -24,23 +55,41 @@
         tools:ignore="DuplicateIds" />
 
 
-    <TextView
-        android:id="@+id/t"
-        android:layout_width="334dp"
-        android:layout_height="42dp"
+    <Spinner
+        android:id="@+id/IngName"
+        android:layout_width="500dp"
+        android:layout_height="47dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Please Provide Dish Information!!!"
-        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/userNameView"
+        app:layout_constraintTop_toBottomOf="@+id/IngrediantName"
+        app:layout_constraintVertical_bias="0.06" />
 
+    <EditText
+        android:id="@+id/IngrediantName"
+        android:layout_width="500dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ctype"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/userNameView"
+        app:layout_constraintTop_toBottomOf="@+id/t"
+        app:layout_constraintVertical_bias="0.541" />
     <TextView
         android:id="@+id/usertype"
         android:layout_width="wrap_content"
@@ -55,8 +104,8 @@
 
     <EditText
         android:id="@+id/price"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_height="47dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="60dp"
@@ -69,22 +118,7 @@
         app:layout_constraintStart_toEndOf="@+id/usertype"
         app:layout_constraintTop_toBottomOf="@+id/IngName" />
 
-    <Spinner
-        android:id="@+id/IngName"
-        android:layout_width="275dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/userNameView"
-        app:layout_constraintTop_toBottomOf="@+id/IngrediantName"
-        app:layout_constraintVertical_bias="0.06" />
+
 
 
     <Button
@@ -107,24 +141,7 @@
         app:layout_constraintTop_toBottomOf="@+id/usertype"
         app:layout_constraintVertical_bias="0.463" />
 
-    <EditText
-        android:id="@+id/IngrediantName"
-        android:layout_width="232dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/ctype"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.892"
-        app:layout_constraintStart_toEndOf="@+id/userNameView"
-        app:layout_constraintTop_toBottomOf="@+id/t"
-        app:layout_constraintVertical_bias="0.541" />
+
 
     <Button
         android:id="@+id/aing"
@@ -145,5 +162,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/price"
         app:layout_constraintVertical_bias="0.449" />
-
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+    </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

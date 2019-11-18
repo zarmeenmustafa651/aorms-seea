@@ -1,4 +1,4 @@
-package com.example.muhammadzain.myapplication;
+package com.example.muhammadzain.integrationa;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

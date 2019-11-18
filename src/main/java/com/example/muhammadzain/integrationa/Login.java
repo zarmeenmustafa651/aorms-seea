@@ -1,4 +1,4 @@
-package com.example.muhammadzain.myapplication;
+package com.example.muhammadzain.integrationa;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -41,6 +41,21 @@ public class Login extends AppCompatActivity {
                 if(Username.equals("inventory") && Password.equals("inventory")){
                     Intent i = new Intent(Login.this, Addinventory.class);
                     startActivity(i);
+                }
+
+
+                if(Username.equals("owner") && Password.equals("owner")) {
+                   //For Owner
+                }
+
+
+                if(Username.equals("hall") && Password.equals("hall")) {
+                    //For Hall Manager
+                }
+
+
+                if(Username.equals("kitchen") && Password.equals("kitchen")) {
+                    //Kitchcen Manager
                 }
             }
         });

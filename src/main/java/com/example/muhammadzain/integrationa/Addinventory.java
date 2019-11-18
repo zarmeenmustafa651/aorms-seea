@@ -1,23 +1,20 @@
-package com.example.muhammadzain.myapplication;
+package com.example.muhammadzain.integrationa;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-public class AddIngrediante extends AppCompatActivity {
-    EditText a,b;
+public class Addinventory extends AppCompatActivity {
+    EditText b;
     String s;
-    Button Btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_ingrediante);
+        setContentView(R.layout.activity_addinventory);
         Spinner x;
         String UTypes[]={"Soy",
                 "Corn",
@@ -30,14 +27,15 @@ public class AddIngrediante extends AppCompatActivity {
                 "Fruits",
                 "Vegetables","Other"};
         ArrayAdapter<String> ad= new ArrayAdapter<String>(this,android.R.layout.simple_dropdown_item_1line,UTypes);
-        x=findViewById(R.id.IngName);
+        x=findViewById(R.id.addinventory);
         x.setAdapter(ad);
 
+        b=findViewById(R.id.i);
+        b.setText("Please Type");
         x.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 s= (String) parent.getItemAtPosition(position).toString();
-                b=findViewById(R.id.IngrediantName);
                 b.setText(s);
             }
 
@@ -46,16 +44,9 @@ public class AddIngrediante extends AppCompatActivity {
 
             }
         });
-
-
-        Btn=findViewById(R.id.Back);
-        Btn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(AddIngrediante.this, Pakistani.class);
-                startActivity(i);
-            }
-        });
-
+        if(b.equals("Other"))
+        {
+            b.setText("TypeHere");
+        }
     }
 }
