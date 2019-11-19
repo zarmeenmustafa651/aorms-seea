@@ -1,0 +1,380 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/dbe493a215c12b16b842e729f6d7f5f8/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f3727a8777fd24b60f54249987d59532/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/6d603a410b84297a20ae16898e90454c/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f6a2e342028971f08b98514d4fe14869/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/36fee3d9fc0355759334f269df90489b/firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/88fcaebc0dc079947af795e861bdaab0/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/7537216abfe2284547983fffe7f1cdc3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3e9c67073f4685bc882a5d5b88bb034c/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bbf291d06e6d73e5a69cf00e352da007/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/ef1f2f8209945c9c9b05dff0985ea3c0/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3c16f5091db1e3ae8df9f2afbbfffb69/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/a55e7986de8d8f2644af0f215ba3f8e7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/85803006e29ded2666eadf0130116cfe/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f219ed8da0a1f3f157686bd0fcb1ff24/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/1c29eba8257a108da88071c959e58639/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/fcbe7a7bca2d6ec0dc8b9a29dffd4e2b/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9d69be0293d4431ce361bf9eef5eb798/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/4890467b861f8e91f6c2216a2f5cc5c6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bad4e29915074b3cb8204cb148676412/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3d546ff4cebcd01f3e9ef1c20a0fbff4/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/1ba13e78580396645a1c72528ad933b1/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9b282167d5edf2ce15b1570bf9b055c0/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/878b964d78564d0d46095360e074f07c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3f064305456a26d7612792e5dcd01f6c/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/be7acfdbfd31e8a0b5dad63939a8f1de/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/d6ce7fc378f620ebbf8f0e87bce4ca16/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/b448eeadd9344e377db6ce91ed38f2e9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/59e7ab5ab881f6d6b18b3207a1f71e29/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3b5f33a5677108152932e8b8d7b62176/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/46064b9613e01513c77c425125634a03/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bb3390a370f1a633e35be4c965db9d43/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/04ca6ca8519f3d6559c3627ba70da8d8/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/65b62d34fffb8020447f7298ffab5bbb/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/86fe573e00c587008c6329aa2663058c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/ab411508481fbbaa4349cd9db2849940/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+	package
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+	xmlns:dist
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:3:1-57
+	android:versionCode
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:2:11-69
+dist:module
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:5:5-40
+	dist:instant
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:5:18-37
+application
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:6:5-88:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f3727a8777fd24b60f54249987d59532/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f3727a8777fd24b60f54249987d59532/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/36fee3d9fc0355759334f269df90489b/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/36fee3d9fc0355759334f269df90489b/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/88fcaebc0dc079947af795e861bdaab0/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/88fcaebc0dc079947af795e861bdaab0/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9b282167d5edf2ce15b1570bf9b055c0/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9b282167d5edf2ce15b1570bf9b055c0/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3f064305456a26d7612792e5dcd01f6c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3f064305456a26d7612792e5dcd01f6c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9b282167d5edf2ce15b1570bf9b055c0/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.example.aorms.PaymentActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:13:9-62
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:13:19-50
+activity#com.example.aorms.AssignWaiterActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:14:9-58
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:14:19-55
+activity#com.example.aorms.ThresholdActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:15:9-55
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:15:19-52
+activity#com.example.aorms.NotificationActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:16:9-58
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:16:19-55
+activity#com.example.aorms.LoginActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:17:9-50
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:17:19-48
+activity#com.example.aorms.ChefListActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:19:9-22:20
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:20:13-38
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:19:19-51
+activity#com.example.aorms.MainActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:24:9-27:20
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:25:13-50
+	android:theme
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:24:19-47
+activity#com.example.aorms.Report
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:28:9-30:71
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:29:13-50
+	android:theme
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:28:19-41
+activity#com.example.aorms.ChefQueActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:32:9-52
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:32:19-50
+activity#com.example.aorms.Addinventory
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:33:9-59
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:33:19-47
+activity#com.example.aorms.Pakistani
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:34:9-47
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:34:19-44
+activity#com.example.aorms.Chinese
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:35:9-45
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:35:19-42
+activity#com.example.aorms.Continental
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:36:9-49
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:36:19-46
+activity#com.example.aorms.AddMenu
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:37:9-45
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:37:19-42
+activity#com.example.aorms.AddUser
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:38:9-45
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:38:19-42
+activity#com.example.aorms.Login
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:39:9-43
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:39:19-40
+activity#com.example.aorms.Adder
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:40:9-43
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:40:19-40
+activity#com.example.aorms.HMSpecialOrderActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:42:9-47:20
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:45:13-50
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:44:13-41
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:43:13-51
+activity#com.example.aorms.KM_Recycle_Page
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:49:9-54:20
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:52:13-50
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:50:13-44
+activity#com.example.aorms.HM_Recycle_Page
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:56:9-61:20
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:59:13-50
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:58:13-41
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:57:13-44
+activity#com.example.aorms.KMSpecialOrderActivity
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:63:9-68:20
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:66:13-50
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:65:13-44
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:64:13-51
+activity#com.example.aorms.HM_DishSelect
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:70:9-75:20
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:73:13-50
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:72:13-41
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:71:13-42
+activity#com.example.aorms.KM_DishSelect
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:77:9-86:20
+	android:screenOrientation
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:80:13-50
+	android:label
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:79:13-44
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:78:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:81:13-85:29
+action#android.intent.action.MAIN
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:82:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:84:17-77
+	android:name
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml:84:27-74
+uses-sdk
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/dbe493a215c12b16b842e729f6d7f5f8/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/dbe493a215c12b16b842e729f6d7f5f8/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f3727a8777fd24b60f54249987d59532/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f3727a8777fd24b60f54249987d59532/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/6d603a410b84297a20ae16898e90454c/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/6d603a410b84297a20ae16898e90454c/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f6a2e342028971f08b98514d4fe14869/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f6a2e342028971f08b98514d4fe14869/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/36fee3d9fc0355759334f269df90489b/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/36fee3d9fc0355759334f269df90489b/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/88fcaebc0dc079947af795e861bdaab0/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/88fcaebc0dc079947af795e861bdaab0/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/7537216abfe2284547983fffe7f1cdc3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/7537216abfe2284547983fffe7f1cdc3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3e9c67073f4685bc882a5d5b88bb034c/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3e9c67073f4685bc882a5d5b88bb034c/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bbf291d06e6d73e5a69cf00e352da007/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bbf291d06e6d73e5a69cf00e352da007/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/ef1f2f8209945c9c9b05dff0985ea3c0/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/ef1f2f8209945c9c9b05dff0985ea3c0/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3c16f5091db1e3ae8df9f2afbbfffb69/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3c16f5091db1e3ae8df9f2afbbfffb69/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/a55e7986de8d8f2644af0f215ba3f8e7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/a55e7986de8d8f2644af0f215ba3f8e7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/85803006e29ded2666eadf0130116cfe/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/85803006e29ded2666eadf0130116cfe/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f219ed8da0a1f3f157686bd0fcb1ff24/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/f219ed8da0a1f3f157686bd0fcb1ff24/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/1c29eba8257a108da88071c959e58639/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/1c29eba8257a108da88071c959e58639/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/fcbe7a7bca2d6ec0dc8b9a29dffd4e2b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/fcbe7a7bca2d6ec0dc8b9a29dffd4e2b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9d69be0293d4431ce361bf9eef5eb798/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9d69be0293d4431ce361bf9eef5eb798/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/4890467b861f8e91f6c2216a2f5cc5c6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/4890467b861f8e91f6c2216a2f5cc5c6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bad4e29915074b3cb8204cb148676412/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bad4e29915074b3cb8204cb148676412/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3d546ff4cebcd01f3e9ef1c20a0fbff4/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3d546ff4cebcd01f3e9ef1c20a0fbff4/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/1ba13e78580396645a1c72528ad933b1/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/1ba13e78580396645a1c72528ad933b1/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9b282167d5edf2ce15b1570bf9b055c0/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9b282167d5edf2ce15b1570bf9b055c0/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/878b964d78564d0d46095360e074f07c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/878b964d78564d0d46095360e074f07c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3f064305456a26d7612792e5dcd01f6c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3f064305456a26d7612792e5dcd01f6c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/be7acfdbfd31e8a0b5dad63939a8f1de/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/be7acfdbfd31e8a0b5dad63939a8f1de/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/d6ce7fc378f620ebbf8f0e87bce4ca16/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/d6ce7fc378f620ebbf8f0e87bce4ca16/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/b448eeadd9344e377db6ce91ed38f2e9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/b448eeadd9344e377db6ce91ed38f2e9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/59e7ab5ab881f6d6b18b3207a1f71e29/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/59e7ab5ab881f6d6b18b3207a1f71e29/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3b5f33a5677108152932e8b8d7b62176/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/3b5f33a5677108152932e8b8d7b62176/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/46064b9613e01513c77c425125634a03/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/46064b9613e01513c77c425125634a03/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bb3390a370f1a633e35be4c965db9d43/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/bb3390a370f1a633e35be4c965db9d43/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/04ca6ca8519f3d6559c3627ba70da8d8/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/04ca6ca8519f3d6559c3627ba70da8d8/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/65b62d34fffb8020447f7298ffab5bbb/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/65b62d34fffb8020447f7298ffab5bbb/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/86fe573e00c587008c6329aa2663058c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/86fe573e00c587008c6329aa2663058c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/ab411508481fbbaa4349cd9db2849940/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/ab411508481fbbaa4349cd9db2849940/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:26:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:17:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9209bec148561620729e9a8f50f40b76/firebase-database-19.2.0/AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/c0b8405c419ae1527bc387c260098990/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/applepc/.gradle/caches/transforms-2/files-2.1/5dccb79e59dfae40626f514100e80965/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
