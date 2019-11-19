@@ -21,6 +21,18 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.aorms.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.aorms.HM_assignWaiterActivity" />
+        <activity android:name="com.example.aorms.HM_assigntableActivity" />
         <activity android:name="com.example.aorms.PaymentActivity" />
         <activity android:name="com.example.aorms.AssignWaiterActivity" />
         <activity android:name="com.example.aorms.ThresholdActivity" />
@@ -28,17 +40,11 @@
         <activity android:name="com.example.aorms.LoginActivity" />
         <activity
             android:name="com.example.aorms.ChefListActivity"
-            android:label="Chef List" >
-        </activity>
+            android:label="Chef List" />
         <activity
             android:name="com.example.aorms.MainActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.aorms.Report"
@@ -56,33 +62,33 @@
         <activity
             android:name="com.example.aorms.HMSpecialOrderActivity"
             android:label="Hall Manager"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.KM_Recycle_Page"
             android:label="Kitchen Manager"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.HM_Recycle_Page"
             android:label="Hall Manager"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.KMSpecialOrderActivity"
             android:label="Kitchen Manager"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.HM_DishSelect"
             android:label="Hall Manager"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.KM_DishSelect"
             android:label="Kitchen Manager"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.aorms.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

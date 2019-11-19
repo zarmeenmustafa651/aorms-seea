@@ -14,4 +14,11 @@
     <color name="btn_login">#30d158</color>
     <color name="redButton">#ff3b30</color>
     <color name="greenButton"> #27AE60</color>
+
+    <color name="colorMaroon">#800000</color>
+    <color name="colorOrange">#ffa500</color>
+    <color name="colorLightGreen">#00ff00</color>
+    <color name="colorPurple">#800080</color>
+    <color name="colorLightGrey">#d3d3d3</color>
+    <color name="colorDarkGrey">#2f4f4f</color>
 </resources>

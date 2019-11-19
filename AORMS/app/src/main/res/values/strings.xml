@@ -24,4 +24,6 @@
     <string name="title_activity_chef_list">ChefListActivity</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_main3">Main3Activity</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="tab_text_4">Tab 4</string>
 </resources>
