@@ -36,9 +36,6 @@
         <activity android:name=".ChefQueActivity" />
         <activity android:name=".Addinventory" />
         <activity android:name=".Pakistani" />
-        <activity android:name=".Chinese" />
-        <activity android:name=".Continental" />
-        <activity android:name=".AddMenu" />
         <activity android:name=".AddUser" />
         <activity android:name=".Login" />
         <activity android:name=".Adder" />
