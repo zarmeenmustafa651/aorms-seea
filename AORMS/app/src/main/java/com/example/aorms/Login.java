@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
 
 
                 if(Username.equals("menu") && Password.equals("menu")){
-                        Intent i = new Intent(Login.this, AddMenu.class);
+                        Intent i = new Intent(Login.this, Pakistani.class);
                         startActivity(i);
                 }
 
