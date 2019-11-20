@@ -72,14 +72,7 @@ public class DishesAdapter extends RecyclerView.Adapter<DishesAdapter.MyViewHold
                     myViewHolder.dishnum.setText(String.valueOf(dishnum_val));
                 }
             });
-            if(myViewHolder.dishchk.isChecked()){
-                dish.setSelected(true);
-            }
-            if (!myViewHolder.dishchk.isChecked()){
-                dish.setSelected(false);
-            }
         }
-
     }
 
     @Override
