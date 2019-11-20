@@ -20,6 +20,7 @@
 
     <ImageButton
         android:layout_width="50dp"
+        android:onClick="btn"
         android:layout_height="50dp"
         android:src="@drawable/ic_arrow_back_black_white"
         android:background="@color/bg_login"

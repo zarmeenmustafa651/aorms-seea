@@ -39,7 +39,14 @@
         <activity android:name=".Addinventory" />
         <activity android:name=".Pakistani" />
         <activity android:name=".AddUser" />
-        <activity android:name=".Login" />
+        <activity android:name=".Login"
+            android:screenOrientation="landscape">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".Adder" />
         <activity
             android:name=".HMSpecialOrderActivity"
@@ -69,11 +76,6 @@
         <activity android:name=".AddIngrediante"/>
         <activity android:name=".MainActivity"
             android:screenOrientation="landscape">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 </manifest>

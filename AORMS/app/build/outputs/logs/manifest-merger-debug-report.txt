@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -45,16 +45,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zarme\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\8506ddbc1ed30380944ad7f0369e4760\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\35d6382087ac1999db47004e3bf24934\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\8893b90c6f2a61edd1acfa898cb4cde1\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
 	package
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:5:5-32
 		INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:4:5-51
@@ -62,7 +62,7 @@ INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\Androi
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:2:11-69
@@ -71,7 +71,7 @@ ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidMa
 	dist:instant
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:7:18-37
 application
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:9:5-78:19
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:9:5-80:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\zarme\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -93,7 +93,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\za
 	android:supportsRtl
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:12:9-25
 	tools:ignore
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:16:9-48
 	android:roundIcon
@@ -171,81 +171,83 @@ ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:41:19-42
 activity#com.example.aorms.Login
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:9-43
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:13-50
 	android:name
 		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:19-40
-activity#com.example.aorms.Adder
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:9-43
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:19-40
-activity#com.example.aorms.HMSpecialOrderActivity
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:44:9-47:53
-	android:screenOrientation
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:47:13-50
-	android:label
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:46:13-41
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:13-51
-activity#com.example.aorms.KM_Recycle_Page
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:48:9-51:53
-	android:screenOrientation
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:51:13-50
-	android:label
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:50:13-44
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:49:13-44
-activity#com.example.aorms.HM_Recycle_Page
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:52:9-55:53
-	android:screenOrientation
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:55:13-50
-	android:label
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:54:13-41
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:53:13-44
-activity#com.example.aorms.KMSpecialOrderActivity
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:56:9-59:53
-	android:screenOrientation
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:59:13-50
-	android:label
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:58:13-44
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:57:13-51
-activity#com.example.aorms.HM_DishSelect
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:60:9-63:53
-	android:screenOrientation
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:63:13-50
-	android:label
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:62:13-41
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:61:13-42
-activity#com.example.aorms.KM_DishSelect
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:64:9-67:53
-	android:screenOrientation
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:67:13-50
-	android:label
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:66:13-44
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:65:13-42
-activity#com.example.aorms.AddIngrediante
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:69:9-51
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:69:19-49
-activity#com.example.aorms.MainActivity
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:70:9-77:20
-	android:screenOrientation
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:71:13-50
-	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:70:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:72:13-76:29
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:44:9-48:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:73:17-69
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:13-65
 	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:73:25-66
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:75:17-77
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:47:13-73
 	android:name
-		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:75:27-74
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:47:23-70
+activity#com.example.aorms.Adder
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:50:9-43
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:50:19-40
+activity#com.example.aorms.HMSpecialOrderActivity
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:51:9-54:53
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:54:13-50
+	android:label
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:53:13-41
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:52:13-51
+activity#com.example.aorms.KM_Recycle_Page
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:55:9-58:53
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:58:13-50
+	android:label
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:56:13-44
+activity#com.example.aorms.HM_Recycle_Page
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:59:9-62:53
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:62:13-50
+	android:label
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:61:13-41
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:60:13-44
+activity#com.example.aorms.KMSpecialOrderActivity
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:63:9-66:53
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:66:13-50
+	android:label
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:65:13-44
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:64:13-51
+activity#com.example.aorms.HM_DishSelect
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:67:9-70:53
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:70:13-50
+	android:label
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:69:13-41
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:68:13-42
+activity#com.example.aorms.KM_DishSelect
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:71:9-74:53
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:74:13-50
+	android:label
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:73:13-44
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:72:13-42
+activity#com.example.aorms.AddIngrediante
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:76:9-51
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:76:19-49
+activity#com.example.aorms.MainActivity
+ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:77:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:78:13-50
+	android:name
+		ADDED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:77:19-47
 uses-sdk
 INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\zarme\Desktop\GitHub\aorms-seea\AORMS\app\src\main\AndroidManifest.xml

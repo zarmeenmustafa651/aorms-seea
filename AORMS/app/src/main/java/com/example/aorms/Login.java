@@ -32,8 +32,8 @@ public class Login extends AppCompatActivity {
 
 
                 if(Username.equals("menu") && Password.equals("menu")){
-                        Intent i = new Intent(Login.this, Pakistani.class);
-                        startActivity(i);
+                    Intent i = new Intent(Login.this, Pakistani.class);
+                    startActivity(i);
                 }
 
 
@@ -41,6 +41,24 @@ public class Login extends AppCompatActivity {
                 if(Username.equals("inventory") && Password.equals("inventory")){
                     Intent i = new Intent(Login.this, Addinventory.class);
                     startActivity(i);
+                }
+
+
+                if(Username.equals("owner") && Password.equals("owner")) {
+                    Intent i = new Intent(Login.this, Report.class);
+                    startActivity(i);
+                }
+
+
+                if(Username.equals("hall") && Password.equals("hall")) {
+                    //For Hall Manager
+                    Intent i = new Intent(Login.this, Main2Activity.class);
+                    startActivity(i);
+                }
+
+
+                if(Username.equals("kitchen") && Password.equals("kitchen")) {
+                    //Kitchcen Manager
                 }
             }
         });

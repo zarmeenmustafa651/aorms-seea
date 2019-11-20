@@ -1,4 +1,5 @@
 package com.example.aorms;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -102,4 +103,8 @@ public class Report extends AppCompatActivity {
         }
     }
 
+    public void btn(View view) {
+        Intent i = new Intent(this, Login.class);
+        startActivity(i);
+    }
 }

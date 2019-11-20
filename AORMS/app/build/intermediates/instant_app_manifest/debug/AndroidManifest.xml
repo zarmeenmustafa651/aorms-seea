@@ -17,7 +17,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
@@ -45,7 +45,15 @@
         <activity android:name="com.example.aorms.Addinventory" />
         <activity android:name="com.example.aorms.Pakistani" />
         <activity android:name="com.example.aorms.AddUser" />
-        <activity android:name="com.example.aorms.Login" />
+        <activity
+            android:name="com.example.aorms.Login"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.aorms.Adder" />
         <activity
             android:name="com.example.aorms.HMSpecialOrderActivity"
@@ -75,11 +83,6 @@
         <activity
             android:name="com.example.aorms.MainActivity"
             android:screenOrientation="landscape" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <provider
