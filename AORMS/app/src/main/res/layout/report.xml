@@ -56,6 +56,14 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+            <com.jjoe64.graphview.GraphView
+                android:layout_width = "match_parent"
+                android:layout_height = "200dip"
+                android:id = "@+id/graph"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                />
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -67,9 +75,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/title"
-
-                tools:layout_editor_absoluteX="49dp"
-                tools:layout_editor_absoluteY="208dp" />
+                android:visibility="invisible"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
