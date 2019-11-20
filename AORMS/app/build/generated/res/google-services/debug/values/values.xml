@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">181898499294-kr1k8olt9uspkumf7g9kps22in2mrrnh.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://aormsseea.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">181898499294</string>
+    <string name="google_api_key" translatable="false">AIzaSyDr2Aq_fHlmhcnSr9ltN0cbYk4L-mx9Dl4</string>
+    <string name="google_app_id" translatable="false">1:181898499294:android:e66797645a87ea91a89e4f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDr2Aq_fHlmhcnSr9ltN0cbYk4L-mx9Dl4</string>
+    <string name="google_storage_bucket" translatable="false">aormsseea.appspot.com</string>
+    <string name="project_id" translatable="false">aormsseea</string>
+</resources>
