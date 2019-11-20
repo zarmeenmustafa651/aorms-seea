@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/applepc/Downloads/aorms-seea-master (1) 2/aorms-seea-master/AORMS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+            "outputFile": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "/Users/applepc/.gradle/caches/transforms-2/files-2.1/dbe493a215c12b16b842e729f6d7f5f8/appcompat-1.1.0/res/values-v25/values-v25.xml",
+                    "source": "C:\\Users\\zarme\\.gradle\\caches\\transforms-2\\files-2.1\\dbe493a215c12b16b842e729f6d7f5f8\\appcompat-1.1.0\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
