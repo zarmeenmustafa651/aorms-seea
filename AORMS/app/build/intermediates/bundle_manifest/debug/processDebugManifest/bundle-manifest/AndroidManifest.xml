@@ -19,6 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.aorms.Main2Activity"
@@ -42,9 +43,6 @@
         <activity android:name="com.example.aorms.ChefQueActivity" />
         <activity android:name="com.example.aorms.Addinventory" />
         <activity android:name="com.example.aorms.Pakistani" />
-        <activity android:name="com.example.aorms.Chinese" />
-        <activity android:name="com.example.aorms.Continental" />
-        <activity android:name="com.example.aorms.AddMenu" />
         <activity android:name="com.example.aorms.AddUser" />
         <activity android:name="com.example.aorms.Login" />
         <activity android:name="com.example.aorms.Adder" />
