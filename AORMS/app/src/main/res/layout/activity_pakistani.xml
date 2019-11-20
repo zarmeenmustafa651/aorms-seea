@@ -44,10 +44,16 @@
         android:id="@+id/t"
         android:layout_width="334dp"
         android:layout_height="42dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginRight="229dp"
         android:text="Please Provide Dish Information!!!"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="15dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/pass"

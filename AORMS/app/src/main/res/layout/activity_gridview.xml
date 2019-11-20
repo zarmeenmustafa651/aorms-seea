@@ -27,7 +27,8 @@
         android:layout_marginStart="24dp"
         app:layout_constraintStart_toEndOf="@+id/checkBox"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginLeft="24dp" />
 
     <TextView
         android:id="@+id/tvdishselection"
