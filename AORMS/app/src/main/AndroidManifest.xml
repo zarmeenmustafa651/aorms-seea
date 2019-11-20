@@ -17,28 +17,40 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
-        <activity android:name=".HM_assignWaiterActivity" />
-        <activity android:name=".HM_assigntableActivity" />
+        <activity android:name=".HM_assignWaiterActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".HM_assigntableActivity"
+            android:screenOrientation="landscape"/>
         <activity android:name=".PaymentActivity" />
-        <activity android:name=".AssignWaiterActivity" />
-        <activity android:name=".ThresholdActivity" />
-        <activity android:name=".NotificationActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".AssignWaiterActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ThresholdActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".NotificationActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".ChefListActivity"
+            android:screenOrientation="landscape"
             android:label="Chef List" />
         
         <activity
             android:name=".Report"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".ChefQueActivity" />
-        <activity android:name=".Addinventory" />
-        <activity android:name=".Pakistani" />
-        <activity android:name=".AddUser" />
+        <activity android:name=".ChefQueActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Addinventory"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Pakistani"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".AddUser"
+            android:screenOrientation="landscape"/>
         <activity android:name=".Login"
             android:screenOrientation="landscape">
         <intent-filter>
@@ -47,7 +59,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
-        <activity android:name=".Adder" />
+        <activity android:name=".Adder"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".HMSpecialOrderActivity"
             android:label="Hall Manager"
@@ -73,7 +86,8 @@
             android:label="Kitchen Manager"
             android:screenOrientation="landscape" />
     
-        <activity android:name=".AddIngrediante"/>
+        <activity android:name=".AddIngrediante"
+            android:screenOrientation="landscape"/>
         <activity android:name=".MainActivity"
             android:screenOrientation="landscape">
         </activity>

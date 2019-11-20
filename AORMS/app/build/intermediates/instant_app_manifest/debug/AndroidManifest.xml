@@ -25,26 +25,48 @@
         <activity
             android:name="com.example.aorms.Main2Activity"
             android:label="@string/title_activity_main2"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
-        <activity android:name="com.example.aorms.HM_assignWaiterActivity" />
-        <activity android:name="com.example.aorms.HM_assigntableActivity" />
+        <activity
+            android:name="com.example.aorms.HM_assignWaiterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.HM_assigntableActivity"
+            android:screenOrientation="landscape" />
         <activity android:name="com.example.aorms.PaymentActivity" />
-        <activity android:name="com.example.aorms.AssignWaiterActivity" />
-        <activity android:name="com.example.aorms.ThresholdActivity" />
-        <activity android:name="com.example.aorms.NotificationActivity" />
-        <activity android:name="com.example.aorms.LoginActivity" />
+        <activity
+            android:name="com.example.aorms.AssignWaiterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.ThresholdActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.NotificationActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.LoginActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.ChefListActivity"
-            android:label="Chef List" />
+            android:label="Chef List"
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.Report"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="com.example.aorms.ChefQueActivity" />
-        <activity android:name="com.example.aorms.Addinventory" />
-        <activity android:name="com.example.aorms.Pakistani" />
-        <activity android:name="com.example.aorms.AddUser" />
+        <activity
+            android:name="com.example.aorms.ChefQueActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.Addinventory"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.Pakistani"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.AddUser"
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.Login"
             android:screenOrientation="landscape" >
@@ -54,7 +76,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.aorms.Adder" />
+        <activity
+            android:name="com.example.aorms.Adder"
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.HMSpecialOrderActivity"
             android:label="Hall Manager"
@@ -79,7 +103,9 @@
             android:name="com.example.aorms.KM_DishSelect"
             android:label="Kitchen Manager"
             android:screenOrientation="landscape" />
-        <activity android:name="com.example.aorms.AddIngrediante" />
+        <activity
+            android:name="com.example.aorms.AddIngrediante"
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.example.aorms.MainActivity"
             android:screenOrientation="landscape" >

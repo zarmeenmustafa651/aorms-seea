@@ -1289,7 +1289,6 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
-id did
 id dimensions
 id direct
 id disableHome
@@ -1641,8 +1640,6 @@ layout activity_addinventory
 layout activity_assign_waiter
 layout activity_chef_list
 layout activity_chef_que
-layout activity_chinese
-layout activity_continental
 layout activity_gridview
 layout activity_hm__recycle__page
 layout activity_hm_assign_waiter
