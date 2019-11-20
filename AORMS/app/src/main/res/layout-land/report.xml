@@ -48,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:hint="@string/hint_report"
+                android:text="@string/hint_report"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/black"
                 android:textStyle="bold"
@@ -65,19 +66,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/title"
                 />
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="wrap_content"
-                android:layout_height="451dp"
-                android:layout_gravity="center_horizontal"
-                android:foregroundGravity="center"
-                android:src="@drawable/yearly_report1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/title"
-
-                tools:layout_editor_absoluteX="49dp"
-                tools:layout_editor_absoluteY="208dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

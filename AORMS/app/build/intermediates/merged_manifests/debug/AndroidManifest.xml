@@ -71,7 +71,9 @@
             android:label="Kitchen Manager"
             android:screenOrientation="landscape" />
         <activity android:name="com.example.aorms.AddIngrediante" />
-        <activity android:name="com.example.aorms.MainActivity" >
+        <activity
+            android:name="com.example.aorms.MainActivity"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
