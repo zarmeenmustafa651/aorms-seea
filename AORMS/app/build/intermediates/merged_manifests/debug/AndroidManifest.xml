@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.aorms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.aorms.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.aorms.HM_assignWaiterActivity" />
+        <activity android:name="com.example.aorms.HM_assigntableActivity" />
+        <activity android:name="com.example.aorms.PaymentActivity" />
+        <activity android:name="com.example.aorms.AssignWaiterActivity" />
+        <activity android:name="com.example.aorms.ThresholdActivity" />
+        <activity android:name="com.example.aorms.NotificationActivity" />
+        <activity android:name="com.example.aorms.LoginActivity" />
+        <activity
+            android:name="com.example.aorms.ChefListActivity"
+            android:label="Chef List" />
+        <activity
+            android:name="com.example.aorms.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.aorms.Report"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.example.aorms.ChefQueActivity" />
+        <activity android:name="com.example.aorms.Addinventory" />
+        <activity android:name="com.example.aorms.Pakistani" />
+        <activity android:name="com.example.aorms.Chinese" />
+        <activity android:name="com.example.aorms.Continental" />
+        <activity android:name="com.example.aorms.AddMenu" />
+        <activity android:name="com.example.aorms.AddUser" />
+        <activity android:name="com.example.aorms.Login" />
+        <activity android:name="com.example.aorms.Adder" />
+        <activity
+            android:name="com.example.aorms.HMSpecialOrderActivity"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.KM_Recycle_Page"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.HM_Recycle_Page"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.KMSpecialOrderActivity"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.HM_DishSelect"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.KM_DishSelect"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.aorms.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
