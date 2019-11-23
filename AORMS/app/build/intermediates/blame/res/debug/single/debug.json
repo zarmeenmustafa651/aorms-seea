@@ -80,12 +80,12 @@
         "source": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "C:\\Users\\zarme\\.gradle\\caches\\transforms-2\\files-2.1\\9ee5da6fca20f6f07dce6c73fc4ca33a\\material-1.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dish_background.png.flat",
         "source": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\dish_background.png"
+    },
+    {
+        "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\zarme\\.gradle\\caches\\transforms-2\\files-2.1\\9ee5da6fca20f6f07dce6c73fc4ca33a\\material-1.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -246,10 +246,6 @@
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\zarme\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chinese.xml.flat",
-        "source": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\src\\main\\res\\layout\\activity_chinese.xml"
     },
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
@@ -790,6 +786,10 @@
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_chef_round.png.flat",
         "source": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\src\\main\\res\\mipmap-mdpi\\chef_round.png"
+    },
+    {
+        "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_ingrediante.xml.flat",
+        "source": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\src\\main\\res\\layout\\activity_add_ingrediante.xml"
     },
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -1630,10 +1630,6 @@
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_snackbar_background.xml.flat",
         "source": "C:\\Users\\zarme\\.gradle\\caches\\transforms-2\\files-2.1\\9ee5da6fca20f6f07dce6c73fc4ca33a\\material-1.0.0\\res\\drawable\\mtrl_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continental.xml.flat",
-        "source": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\src\\main\\res\\layout\\activity_continental.xml"
     },
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -2770,10 +2766,6 @@
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\zarme\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_menu.xml.flat",
-        "source": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\src\\main\\res\\layout\\activity_add_menu.xml"
     },
     {
         "merged": "C:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_color_selector.xml.flat",

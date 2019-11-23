@@ -1132,13 +1132,19 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable yearly_report1
 id ALT
+id AddInv
+id Back
 id CTRL
+id Dname
+id Dtype
 id FUNCTION
+id IngName
+id IngrediantName
 id Login
+id M
 id META
 id Ono_hm
 id Ono_km
-id P
 id Password
 id Q
 id Quantity
@@ -1153,7 +1159,6 @@ id Tv_pinLock_011
 id Tv_pinLock_07
 id Uidv
 id UserName
-id Username
 id a
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1209,6 +1214,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addinventory
+id aduser
+id aing
 id alertTitle
 id all
 id always
@@ -1229,7 +1237,6 @@ id button2
 id button3
 id button5
 id buttonPanel
-id c
 id c2
 id c3
 id cB2
@@ -1238,7 +1245,6 @@ id card_view
 id center
 id center_horizontal
 id center_vertical
-id ch
 id chains
 id check2
 id checkB2
@@ -1271,6 +1277,7 @@ id contentPanel
 id coordinator
 id coordinatorLayout
 id ctype
+id ctype2
 id custom
 id customPanel
 id cy
@@ -1282,7 +1289,6 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
-id did
 id dimensions
 id direct
 id disableHome
@@ -1333,7 +1339,6 @@ id homeAsUp
 id i
 id icon
 id icon_group
-id id
 id ifRoom
 id image
 id imageView
@@ -1376,6 +1381,7 @@ id multiply
 id multiplyTextView
 id navigation_header_container
 id never
+id next
 id none
 id normal
 id notification_background
@@ -1563,7 +1569,7 @@ id up
 id useLogo
 id userName
 id userNameView
-id userNameView2
+id userNameView3
 id username
 id usertype
 id view_offset_helper
@@ -1627,15 +1633,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_add_menu
+layout activity_add_ingrediante
 layout activity_add_user
 layout activity_adder
 layout activity_addinventory
 layout activity_assign_waiter
 layout activity_chef_list
 layout activity_chef_que
-layout activity_chinese
-layout activity_continental
 layout activity_gridview
 layout activity_hm__recycle__page
 layout activity_hm_assign_waiter
