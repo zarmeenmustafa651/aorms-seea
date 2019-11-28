@@ -55,7 +55,9 @@
             app:layout_constraintEnd_toEndOf="@+id/kmOrderSummaryTextView"
             app:layout_constraintStart_toEndOf="@+id/kmTableNumtextView"
             app:layout_constraintTop_toTopOf="@+id/kmTableNumtextView"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="8dp" />
 
         <TextView
             android:id="@+id/kmOrderNumtextView"

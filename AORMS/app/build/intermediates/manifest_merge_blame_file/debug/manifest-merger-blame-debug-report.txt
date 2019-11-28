@@ -7,181 +7,250 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="15"
-9-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
+9-->F:\AORMS\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="29" />
-10-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml
+10-->F:\AORMS\app\src\main\AndroidManifest.xml
 11
 12    <dist:module dist:instant="true" />
-12-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:6:5-40
-12-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:6:18-37
+12-->F:\AORMS\app\src\main\AndroidManifest.xml:7:5-40
+12-->F:\AORMS\app\src\main\AndroidManifest.xml:7:18-37
 13
-14    <application
-14-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:8:5-78:19
-15        android:allowBackup="true"
-15-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:9:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
-17        android:debuggable="true"
-18        android:icon="@mipmap/ic_launcher"
-18-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:10:9-43
-19        android:label="@string/app_name"
-19-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:11:9-41
-20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:12:9-54
-21        android:supportsRtl="true"
-21-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:13:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme" >
-23-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:14:9-40
-24        <activity
-24-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:15:9-24:20
-25            android:name="com.example.aorms.Main2Activity"
-25-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:16:13-42
-26            android:label="@string/title_activity_main2"
-26-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:17:13-57
-27            android:theme="@style/AppTheme.NoActionBar" >
-27-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:18:13-56
-28            <intent-filter>
-28-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:20:17-69
-29-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:22:17-77
-31-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity android:name="com.example.aorms.HM_assignWaiterActivity" />
-34-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:25:9-61
-34-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:25:19-58
-35        <activity android:name="com.example.aorms.HM_assigntableActivity" />
-35-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:26:9-60
-35-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:26:19-57
-36        <activity android:name="com.example.aorms.PaymentActivity" />
-36-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:27:9-53
-36-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:27:19-50
-37        <activity android:name="com.example.aorms.AssignWaiterActivity" />
-37-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:28:9-58
-37-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:28:19-55
-38        <activity android:name="com.example.aorms.ThresholdActivity" />
-38-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:29:9-55
-38-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:29:19-52
-39        <activity android:name="com.example.aorms.NotificationActivity" />
-39-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:30:9-58
-39-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:30:19-55
-40        <activity android:name="com.example.aorms.LoginActivity" />
-40-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:31:9-51
-40-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:31:19-48
-41        <activity
-41-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:32:9-34:41
-42            android:name="com.example.aorms.ChefListActivity"
-42-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:33:13-45
-43            android:label="Chef List" />
-43-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:34:13-38
-44        <activity
-44-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:35:9-40:20
-45            android:name="com.example.aorms.MainActivity"
-45-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:36:13-41
-46            android:screenOrientation="landscape"
-46-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:37:13-50
-47            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-47-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:38:13-69
-48        </activity>
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-database:16.0.4] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\4cdca1ffc1947432c8ddf50fe97a87e2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+14-->[com.google.firebase:firebase-database:16.0.4] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\4cdca1ffc1947432c8ddf50fe97a87e2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\4cdca1ffc1947432c8ddf50fe97a87e2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\4cdca1ffc1947432c8ddf50fe97a87e2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+16
+17    <application
+17-->F:\AORMS\app\src\main\AndroidManifest.xml:9:5-94:19
+18        android:allowBackup="true"
+18-->F:\AORMS\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->F:\AORMS\app\src\main\AndroidManifest.xml:11:9-43
+22        android:label=""
+22-->F:\AORMS\app\src\main\AndroidManifest.xml:12:9-25
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->F:\AORMS\app\src\main\AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->F:\AORMS\app\src\main\AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->F:\AORMS\app\src\main\AndroidManifest.xml:15:9-40
+27        <activity
+27-->F:\AORMS\app\src\main\AndroidManifest.xml:17:9-23:20
+28            android:name="com.example.aorms.Main2Activity"
+28-->F:\AORMS\app\src\main\AndroidManifest.xml:18:13-42
+29            android:label="@string/title_activity_main2"
+29-->F:\AORMS\app\src\main\AndroidManifest.xml:19:13-57
+30            android:screenOrientation="landscape"
+30-->F:\AORMS\app\src\main\AndroidManifest.xml:20:13-50
+31            android:theme="@style/AppTheme.NoActionBar" >
+31-->F:\AORMS\app\src\main\AndroidManifest.xml:21:13-56
+32        </activity>
+33        <activity
+33-->F:\AORMS\app\src\main\AndroidManifest.xml:24:9-25:52
+34            android:name="com.example.aorms.HM_assignWaiterActivity"
+34-->F:\AORMS\app\src\main\AndroidManifest.xml:24:19-58
+35            android:screenOrientation="landscape" />
+35-->F:\AORMS\app\src\main\AndroidManifest.xml:25:13-50
+36        <activity
+36-->F:\AORMS\app\src\main\AndroidManifest.xml:26:9-27:52
+37            android:name="com.example.aorms.HM_assigntableActivity"
+37-->F:\AORMS\app\src\main\AndroidManifest.xml:26:19-57
+38            android:screenOrientation="landscape" />
+38-->F:\AORMS\app\src\main\AndroidManifest.xml:27:13-50
+39        <activity android:name="com.example.aorms.PaymentActivity" />
+39-->F:\AORMS\app\src\main\AndroidManifest.xml:28:9-53
+39-->F:\AORMS\app\src\main\AndroidManifest.xml:28:19-50
+40        <activity
+40-->F:\AORMS\app\src\main\AndroidManifest.xml:29:9-30:52
+41            android:name="com.example.aorms.AssignWaiterActivity"
+41-->F:\AORMS\app\src\main\AndroidManifest.xml:29:19-55
+42            android:screenOrientation="landscape" />
+42-->F:\AORMS\app\src\main\AndroidManifest.xml:30:13-50
+43        <activity
+43-->F:\AORMS\app\src\main\AndroidManifest.xml:31:9-32:52
+44            android:name="com.example.aorms.ThresholdActivity"
+44-->F:\AORMS\app\src\main\AndroidManifest.xml:31:19-52
+45            android:screenOrientation="landscape" />
+45-->F:\AORMS\app\src\main\AndroidManifest.xml:32:13-50
+46        <activity
+46-->F:\AORMS\app\src\main\AndroidManifest.xml:33:9-34:52
+47            android:name="com.example.aorms.NotificationActivity"
+47-->F:\AORMS\app\src\main\AndroidManifest.xml:33:19-55
+48            android:screenOrientation="landscape" />
+48-->F:\AORMS\app\src\main\AndroidManifest.xml:34:13-50
 49        <activity
-49-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:41:9-44:72
-50            android:name="com.example.aorms.Report"
-50-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:42:13-35
-51            android:screenOrientation="landscape"
-51-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:43:13-50
-52            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-52-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:44:13-69
-53        <activity android:name="com.example.aorms.ChefQueActivity" />
-53-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:9-53
-53-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:45:19-50
-54        <activity android:name="com.example.aorms.Addinventory" />
-54-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:46:9-50
-54-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:46:19-47
-55        <activity android:name="com.example.aorms.Pakistani" />
-55-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:47:9-47
-55-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:47:19-44
-56        <activity android:name="com.example.aorms.Chinese" />
-56-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:48:9-45
-56-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:48:19-42
-57        <activity android:name="com.example.aorms.Continental" />
-57-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:49:9-49
-57-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:49:19-46
-58        <activity android:name="com.example.aorms.AddMenu" />
-58-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:50:9-45
-58-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:50:19-42
-59        <activity android:name="com.example.aorms.AddUser" />
-59-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:51:9-45
-59-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:51:19-42
-60        <activity android:name="com.example.aorms.Login" />
-60-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:52:9-43
-60-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:52:19-40
-61        <activity android:name="com.example.aorms.Adder" />
-61-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:53:9-43
-61-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:53:19-40
-62        <activity
-62-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:54:9-57:53
-63            android:name="com.example.aorms.HMSpecialOrderActivity"
-63-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:55:13-51
-64            android:label="Hall Manager"
-64-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:56:13-41
+49-->F:\AORMS\app\src\main\AndroidManifest.xml:35:9-36:52
+50            android:name="com.example.aorms.LoginActivity"
+50-->F:\AORMS\app\src\main\AndroidManifest.xml:35:19-48
+51            android:screenOrientation="landscape" />
+51-->F:\AORMS\app\src\main\AndroidManifest.xml:36:13-50
+52        <activity
+52-->F:\AORMS\app\src\main\AndroidManifest.xml:37:9-40:41
+53            android:name="com.example.aorms.ChefListActivity"
+53-->F:\AORMS\app\src\main\AndroidManifest.xml:38:13-45
+54            android:label="Chef List"
+54-->F:\AORMS\app\src\main\AndroidManifest.xml:40:13-38
+55            android:screenOrientation="landscape" />
+55-->F:\AORMS\app\src\main\AndroidManifest.xml:39:13-50
+56        <activity
+56-->F:\AORMS\app\src\main\AndroidManifest.xml:42:9-45:72
+57            android:name="com.example.aorms.Report"
+57-->F:\AORMS\app\src\main\AndroidManifest.xml:43:13-35
+58            android:screenOrientation="landscape"
+58-->F:\AORMS\app\src\main\AndroidManifest.xml:44:13-50
+59            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+59-->F:\AORMS\app\src\main\AndroidManifest.xml:45:13-69
+60        <activity
+60-->F:\AORMS\app\src\main\AndroidManifest.xml:46:9-47:52
+61            android:name="com.example.aorms.ChefQueActivity"
+61-->F:\AORMS\app\src\main\AndroidManifest.xml:46:19-50
+62            android:screenOrientation="landscape" />
+62-->F:\AORMS\app\src\main\AndroidManifest.xml:47:13-50
+63        <activity
+63-->F:\AORMS\app\src\main\AndroidManifest.xml:48:9-49:52
+64            android:name="com.example.aorms.Addinventory"
+64-->F:\AORMS\app\src\main\AndroidManifest.xml:48:19-47
 65            android:screenOrientation="landscape" />
-65-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:57:13-50
+65-->F:\AORMS\app\src\main\AndroidManifest.xml:49:13-50
 66        <activity
-66-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:58:9-61:53
-67            android:name="com.example.aorms.KM_Recycle_Page"
-67-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:59:13-44
-68            android:label="Kitchen Manager"
-68-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:60:13-44
-69            android:screenOrientation="landscape" />
-69-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:61:13-50
-70        <activity
-70-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:62:9-65:53
-71            android:name="com.example.aorms.HM_Recycle_Page"
-71-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:63:13-44
-72            android:label="Hall Manager"
-72-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:64:13-41
-73            android:screenOrientation="landscape" />
-73-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:65:13-50
-74        <activity
-74-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:66:9-69:53
-75            android:name="com.example.aorms.KMSpecialOrderActivity"
-75-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:67:13-51
-76            android:label="Kitchen Manager"
-76-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:68:13-44
-77            android:screenOrientation="landscape" />
-77-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:69:13-50
-78        <activity
-78-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:70:9-73:53
-79            android:name="com.example.aorms.HM_DishSelect"
-79-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:71:13-42
-80            android:label="Hall Manager"
-80-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:72:13-41
-81            android:screenOrientation="landscape" />
-81-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:73:13-50
-82        <activity
-82-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:74:9-77:53
-83            android:name="com.example.aorms.KM_DishSelect"
-83-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:75:13-42
-84            android:label="Kitchen Manager"
-84-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:76:13-44
-85            android:screenOrientation="landscape" />
-85-->C:\Users\fastpc\aorms-seea\AORMS\app\src\main\AndroidManifest.xml:77:13-50
-86
-87        <provider
-87-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-88            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-88-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-89            android:authorities="com.example.aorms.lifecycle-process"
-89-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-90            android:exported="false"
-90-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-91            android:multiprocess="true" />
-91-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-92    </application>
-93
-94</manifest>
+66-->F:\AORMS\app\src\main\AndroidManifest.xml:50:9-51:52
+67            android:name="com.example.aorms.Pakistani"
+67-->F:\AORMS\app\src\main\AndroidManifest.xml:50:19-44
+68            android:screenOrientation="landscape" />
+68-->F:\AORMS\app\src\main\AndroidManifest.xml:51:13-50
+69        <activity
+69-->F:\AORMS\app\src\main\AndroidManifest.xml:52:9-53:52
+70            android:name="com.example.aorms.AddUser"
+70-->F:\AORMS\app\src\main\AndroidManifest.xml:52:19-42
+71            android:screenOrientation="landscape" />
+71-->F:\AORMS\app\src\main\AndroidManifest.xml:53:13-50
+72        <activity
+72-->F:\AORMS\app\src\main\AndroidManifest.xml:54:9-61:20
+73            android:name="com.example.aorms.Login"
+73-->F:\AORMS\app\src\main\AndroidManifest.xml:54:19-40
+74            android:screenOrientation="landscape" >
+74-->F:\AORMS\app\src\main\AndroidManifest.xml:55:13-50
+75            <intent-filter>
+75-->F:\AORMS\app\src\main\AndroidManifest.xml:56:9-60:25
+76                <action android:name="android.intent.action.MAIN" />
+76-->F:\AORMS\app\src\main\AndroidManifest.xml:57:13-65
+76-->F:\AORMS\app\src\main\AndroidManifest.xml:57:21-62
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->F:\AORMS\app\src\main\AndroidManifest.xml:59:13-73
+78-->F:\AORMS\app\src\main\AndroidManifest.xml:59:23-70
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->F:\AORMS\app\src\main\AndroidManifest.xml:62:9-63:52
+82            android:name="com.example.aorms.Adder"
+82-->F:\AORMS\app\src\main\AndroidManifest.xml:62:19-40
+83            android:screenOrientation="landscape" />
+83-->F:\AORMS\app\src\main\AndroidManifest.xml:63:13-50
+84        <activity
+84-->F:\AORMS\app\src\main\AndroidManifest.xml:64:9-67:53
+85            android:name="com.example.aorms.HMSpecialOrderActivity"
+85-->F:\AORMS\app\src\main\AndroidManifest.xml:65:13-51
+86            android:label="Hall Manager"
+86-->F:\AORMS\app\src\main\AndroidManifest.xml:66:13-41
+87            android:screenOrientation="landscape" />
+87-->F:\AORMS\app\src\main\AndroidManifest.xml:67:13-50
+88        <activity
+88-->F:\AORMS\app\src\main\AndroidManifest.xml:68:9-71:53
+89            android:name="com.example.aorms.KM_Recycle_Page"
+89-->F:\AORMS\app\src\main\AndroidManifest.xml:69:13-44
+90            android:label="Kitchen Manager"
+90-->F:\AORMS\app\src\main\AndroidManifest.xml:70:13-44
+91            android:screenOrientation="landscape" />
+91-->F:\AORMS\app\src\main\AndroidManifest.xml:71:13-50
+92        <activity
+92-->F:\AORMS\app\src\main\AndroidManifest.xml:72:9-75:53
+93            android:name="com.example.aorms.HM_Recycle_Page"
+93-->F:\AORMS\app\src\main\AndroidManifest.xml:73:13-44
+94            android:label="Hall Manager"
+94-->F:\AORMS\app\src\main\AndroidManifest.xml:74:13-41
+95            android:screenOrientation="landscape" />
+95-->F:\AORMS\app\src\main\AndroidManifest.xml:75:13-50
+96        <activity
+96-->F:\AORMS\app\src\main\AndroidManifest.xml:76:9-79:53
+97            android:name="com.example.aorms.KMSpecialOrderActivity"
+97-->F:\AORMS\app\src\main\AndroidManifest.xml:77:13-51
+98            android:label="Kitchen Manager"
+98-->F:\AORMS\app\src\main\AndroidManifest.xml:78:13-44
+99            android:screenOrientation="landscape" />
+99-->F:\AORMS\app\src\main\AndroidManifest.xml:79:13-50
+100        <activity
+100-->F:\AORMS\app\src\main\AndroidManifest.xml:80:9-83:53
+101            android:name="com.example.aorms.HM_DishSelect"
+101-->F:\AORMS\app\src\main\AndroidManifest.xml:81:13-42
+102            android:label="Hall Manager"
+102-->F:\AORMS\app\src\main\AndroidManifest.xml:82:13-41
+103            android:screenOrientation="landscape" />
+103-->F:\AORMS\app\src\main\AndroidManifest.xml:83:13-50
+104        <activity
+104-->F:\AORMS\app\src\main\AndroidManifest.xml:84:9-87:53
+105            android:name="com.example.aorms.KM_DishSelect"
+105-->F:\AORMS\app\src\main\AndroidManifest.xml:85:13-42
+106            android:label="Kitchen Manager"
+106-->F:\AORMS\app\src\main\AndroidManifest.xml:86:13-44
+107            android:screenOrientation="landscape" />
+107-->F:\AORMS\app\src\main\AndroidManifest.xml:87:13-50
+108        <activity
+108-->F:\AORMS\app\src\main\AndroidManifest.xml:89:9-90:52
+109            android:name="com.example.aorms.AddIngrediante"
+109-->F:\AORMS\app\src\main\AndroidManifest.xml:89:19-49
+110            android:screenOrientation="landscape" />
+110-->F:\AORMS\app\src\main\AndroidManifest.xml:90:13-50
+111        <activity
+111-->F:\AORMS\app\src\main\AndroidManifest.xml:91:9-93:20
+112            android:name="com.example.aorms.MainActivity"
+112-->F:\AORMS\app\src\main\AndroidManifest.xml:91:19-47
+113            android:screenOrientation="landscape" >
+113-->F:\AORMS\app\src\main\AndroidManifest.xml:92:13-50
+114        </activity>
+115        <activity
+115-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\99c1f3bc61eac65ebdcaa5a50b2edf87\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\99c1f3bc61eac65ebdcaa5a50b2edf87\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\99c1f3bc61eac65ebdcaa5a50b2edf87\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\99c1f3bc61eac65ebdcaa5a50b2edf87\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+119
+120        <provider
+120-->[com.google.firebase:firebase-common:16.0.3] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\549cc7d2b91982bf5b80b1181299c0b7\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+121            android:name="com.google.firebase.provider.FirebaseInitProvider"
+121-->[com.google.firebase:firebase-common:16.0.3] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\549cc7d2b91982bf5b80b1181299c0b7\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+122            android:authorities="com.example.aorms.firebaseinitprovider"
+122-->[com.google.firebase:firebase-common:16.0.3] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\549cc7d2b91982bf5b80b1181299c0b7\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+123            android:exported="false"
+123-->[com.google.firebase:firebase-common:16.0.3] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\549cc7d2b91982bf5b80b1181299c0b7\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+124            android:initOrder="100" />
+124-->[com.google.firebase:firebase-common:16.0.3] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\549cc7d2b91982bf5b80b1181299c0b7\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+125
+126        <meta-data
+126-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\f12ec94710585730baef5710691d9d2c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+127            android:name="com.google.android.gms.version"
+127-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\f12ec94710585730baef5710691d9d2c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+128            android:value="@integer/google_play_services_version" />
+128-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\f12ec94710585730baef5710691d9d2c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+129
+130        <provider
+130-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+131            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+131-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+132            android:authorities="com.example.aorms.lifecycle-process"
+132-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+133            android:exported="false"
+133-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+134            android:multiprocess="true" />
+134-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\fastpc\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+135    </application>
+136
+137</manifest>
