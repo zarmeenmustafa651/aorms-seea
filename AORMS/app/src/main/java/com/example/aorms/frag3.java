@@ -16,6 +16,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -32,7 +33,7 @@ import static android.content.ContentValues.TAG;
 public class frag3 extends Fragment {
 
     private DatabaseReference mDatabase;
-    private List<OrderModel> orders;
+    private  List<OrderModel> orders;
     private RecyclerView recyclerView;
     private hm_billAdapter adapter;
     boolean flag=true;
@@ -41,7 +42,7 @@ public class frag3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view= inflater.inflate(R.layout.frag3layout, container, false);
-        orders= new ArrayList<>();
+
         recyclerView = (RecyclerView) view.findViewById(R.id.billstatusRCV);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setHasFixedSize(true);
@@ -52,37 +53,31 @@ public class frag3 extends Fragment {
         mDatabase.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
-
+                orders= new ArrayList<>();
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                     OrderModel order = dataSnapshot.getValue(OrderModel.class);
                     orders.add(order);
-                    adapter = new hm_billAdapter(getContext(),orders);
-                    recyclerView.setAdapter(adapter);
-                    recyclerView.smoothScrollToPosition(0);
-                    adapter.SetOnItemClicklistener(new hm_billAdapter.OnItemClickListener() {
-                        @Override
-                        public void onpaidbtnClick(int position) {
-                            mDatabase.child(orders.get(position).order_id).child("status").setValue("paid");
-                            flag=false;
-                        }
-                    });
-                    if(flag==false)
-                    {
-                        break;
-                    }
                  }
+                adapter = new hm_billAdapter(getContext(),orders);
+                recyclerView.setAdapter(adapter);
+
+                adapter.SetOnItemClicklistener(new hm_billAdapter.OnItemClickListener() {
+                    @Override
+                    public void onpaidbtnClick(int position) {
+                        mDatabase.child(orders.get(position).order_id).child("status").setValue("paid");
+
+                    }
+                });
+
             }
+
              @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
                 Log.w(TAG, "loadOrder:onCancelled", databaseError.toException());
             }
         });
-
-        return view;
+    return view;
     }
-
-
-
 
 }

@@ -1197,6 +1197,7 @@ id Tv_pinLock_011
 id Tv_pinLock_07
 id Uidv
 id UserName
+id Widedt1
 id a
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1277,6 +1278,7 @@ id btn_reset
 id button
 id button2
 id button3
+id button4
 id button5
 id buttonPanel
 id c2
@@ -1395,6 +1397,7 @@ id italic
 id item1
 id item2
 id item3
+id itemName
 id item_touch_helper_previous_elevation
 id kmOrderNumValuetextView
 id kmOrderNumtextView
@@ -1429,6 +1432,7 @@ id never
 id next
 id none
 id normal
+id notificationRCV
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -1436,6 +1440,7 @@ id off
 id on
 id orderIdTextView
 id orderStatus
+id orderid
 id outline
 id packed
 id parallax
@@ -1510,6 +1515,7 @@ id src_in
 id src_over
 id standard
 id start
+id status
 id status_bar_latest_event_content
 id stretch
 id submenuarrow
@@ -1539,6 +1545,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id taidedt1
 id tb6
 id tbidedt1
 id td
@@ -1591,6 +1598,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id threshold
 id tidedt1
 id time
 id title
@@ -1730,6 +1738,7 @@ layout frag3layout
 layout frag4layout
 layout fragment_main2
 layout hm_billstatusrow
+layout hm_notification_row
 layout list_item_chef
 layout list_item_km
 layout mtrl_layout_snackbar
