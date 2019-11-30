@@ -1,0 +1,256 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.aorms"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:7:5-40
+12-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:7:18-37
+13
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+14-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+16
+17    <application
+17-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:9:5-104:19
+18        android:allowBackup="true"
+18-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:11:9-43
+22        android:label=""
+22-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:12:9-25
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:15:9-40
+27        <activity
+27-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:17:9-23:20
+28            android:name="com.example.aorms.Main2Activity"
+28-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:18:13-42
+29            android:label="@string/title_activity_main2"
+29-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:19:13-57
+30            android:screenOrientation="landscape"
+30-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:20:13-50
+31            android:theme="@style/AppTheme.NoActionBar" >
+31-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:21:13-56
+32        </activity>
+33        <activity
+33-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:24:9-25:52
+34            android:name="com.example.aorms.HM_assignWaiterActivity"
+34-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:24:19-58
+35            android:screenOrientation="landscape" />
+35-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:25:13-50
+36        <activity
+36-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:27:9-28:52
+37            android:name="com.example.aorms.HM_assigntableActivity"
+37-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:27:19-57
+38            android:screenOrientation="landscape" />
+38-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:28:13-50
+39        <activity android:name="com.example.aorms.PaymentActivity" />
+39-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:30:9-53
+39-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:30:19-50
+40        <activity
+40-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:32:9-33:52
+41            android:name="com.example.aorms.AssignWaiterActivity"
+41-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:32:19-55
+42            android:screenOrientation="landscape" />
+42-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:33:13-50
+43        <activity
+43-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:35:9-36:52
+44            android:name="com.example.aorms.ThresholdActivity"
+44-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:35:19-52
+45            android:screenOrientation="landscape" />
+45-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:36:13-50
+46        <activity
+46-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:38:9-39:52
+47            android:name="com.example.aorms.NotificationActivity"
+47-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:38:19-55
+48            android:screenOrientation="landscape" />
+48-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:39:13-50
+49        <activity
+49-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:41:9-42:52
+50            android:name="com.example.aorms.LoginActivity"
+50-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:41:19-48
+51            android:screenOrientation="landscape" />
+51-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:42:13-50
+52        <activity
+52-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:44:9-47:41
+53            android:name="com.example.aorms.ChefListActivity"
+53-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:45:13-45
+54            android:label="Chef List"
+54-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:47:13-38
+55            android:screenOrientation="landscape" />
+55-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:46:13-50
+56        <activity
+56-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:49:9-52:72
+57            android:name="com.example.aorms.Report"
+57-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:50:13-35
+58            android:screenOrientation="landscape"
+58-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:51:13-50
+59            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+59-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:52:13-69
+60        <activity
+60-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:53:9-54:52
+61            android:name="com.example.aorms.ChefQueActivity"
+61-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:53:19-50
+62            android:screenOrientation="landscape" />
+62-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:54:13-50
+63        <activity
+63-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:55:9-56:52
+64            android:name="com.example.aorms.Addinventory"
+64-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:55:19-47
+65            android:screenOrientation="landscape" />
+65-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:56:13-50
+66        <activity
+66-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:57:9-58:52
+67            android:name="com.example.aorms.Pakistani"
+67-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:57:19-44
+68            android:screenOrientation="landscape" />
+68-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:58:13-50
+69        <activity
+69-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:59:9-60:52
+70            android:name="com.example.aorms.AddUser"
+70-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:59:19-42
+71            android:screenOrientation="landscape" />
+71-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:60:13-50
+72        <activity
+72-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:61:9-63:20
+73            android:name="com.example.aorms.Login"
+73-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:61:19-40
+74            android:screenOrientation="landscape" >
+74-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:62:13-50
+75        </activity>
+76        <activity
+76-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:64:9-65:52
+77            android:name="com.example.aorms.Adder"
+77-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:64:19-40
+78            android:screenOrientation="landscape" />
+78-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:65:13-50
+79        <activity
+79-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:66:9-69:53
+80            android:name="com.example.aorms.HMSpecialOrderActivity"
+80-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:67:13-51
+81            android:label="Hall Manager"
+81-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:68:13-41
+82            android:screenOrientation="landscape" />
+82-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:69:13-50
+83        <activity
+83-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:71:9-79:20
+84            android:name="com.example.aorms.KM_Recycle_Page"
+84-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:72:13-44
+85            android:label="Kitchen Manager" >
+85-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:73:13-44
+86            <intent-filter>
+86-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:74:13-78:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:75:17-69
+87-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:75:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:77:17-77
+89-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:77:27-74
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:81:9-85:20
+93            android:name="com.example.aorms.HM_Recycle_Page"
+93-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:82:13-44
+94            android:label="Hall Manager"
+94-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:83:13-41
+95            android:screenOrientation="landscape" >
+95-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:84:13-50
+96        </activity>
+97        <activity
+97-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:86:9-89:53
+98            android:name="com.example.aorms.KMSpecialOrderActivity"
+98-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:87:13-51
+99            android:label="Kitchen Manager"
+99-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:88:13-44
+100            android:screenOrientation="landscape" />
+100-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:89:13-50
+101        <activity
+101-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:90:9-93:53
+102            android:name="com.example.aorms.HM_DishSelect"
+102-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:91:13-42
+103            android:label="Hall Manager"
+103-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:92:13-41
+104            android:screenOrientation="landscape" />
+104-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:93:13-50
+105        <activity
+105-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:94:9-97:53
+106            android:name="com.example.aorms.KM_DishSelect"
+106-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:95:13-42
+107            android:label="Kitchen Manager"
+107-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:96:13-44
+108            android:screenOrientation="landscape" />
+108-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:97:13-50
+109        <activity
+109-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:99:9-100:52
+110            android:name="com.example.aorms.AddIngrediante"
+110-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:99:19-49
+111            android:screenOrientation="landscape" />
+111-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:100:13-50
+112        <activity
+112-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:101:9-103:20
+113            android:name="com.example.aorms.MainActivity"
+113-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:101:19-47
+114            android:screenOrientation="landscape" >
+114-->F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:102:13-50
+115        </activity>
+116        <activity
+116-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+123            android:authorities="com.example.aorms.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+124            android:exported="false"
+124-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+125            android:initOrder="100" />
+125-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+130
+131        <provider
+131-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+132            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+132-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+133            android:authorities="com.example.aorms.lifecycle-process"
+133-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+134            android:exported="false"
+134-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+135            android:multiprocess="true" />
+135-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+136    </application>
+137
+138</manifest>

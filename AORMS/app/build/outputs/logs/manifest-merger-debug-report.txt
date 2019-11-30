@@ -1,0 +1,440 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fd5af5ed399c2fe2609d80691d79245e\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\dbe493a215c12b16b842e729f6d7f5f8\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f3727a8777fd24b60f54249987d59532\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\c51d6c02fa9228d192dac3fde16671da\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0883e67429661c336cb35c3b715377f3\circleimageview-3.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:15:1-25:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6d603a410b84297a20ae16898e90454c\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f6a2e342028971f08b98514d4fe14869\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4e661bb7e749bfa7b3687f432344ee08\jetified-graphview-4.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6e8f751374d6f9ddd41767fd0b9238a2\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0546ab4e7608c7715029f0b511261acf\firebase-database-collection-16.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e0521e32c1a8b86d42e9784023699798\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\7537216abfe2284547983fffe7f1cdc3\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3e9c67073f4685bc882a5d5b88bb034c\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bbf291d06e6d73e5a69cf00e352da007\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\ef1f2f8209945c9c9b05dff0985ea3c0\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\a55e7986de8d8f2644af0f215ba3f8e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\311dc5891883bf77f7522055b4693dd7\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3c16f5091db1e3ae8df9f2afbbfffb69\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\85803006e29ded2666eadf0130116cfe\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f219ed8da0a1f3f157686bd0fcb1ff24\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\1c29eba8257a108da88071c959e58639\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fcbe7a7bca2d6ec0dc8b9a29dffd4e2b\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9d69be0293d4431ce361bf9eef5eb798\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4890467b861f8e91f6c2216a2f5cc5c6\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bad4e29915074b3cb8204cb148676412\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3d546ff4cebcd01f3e9ef1c20a0fbff4\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\1ba13e78580396645a1c72528ad933b1\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6b2c182e11b16cc0a429d7862677a38d\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\878b964d78564d0d46095360e074f07c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3aa3f1d118a1b83d4576a1f11485b821\lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d6ce7fc378f620ebbf8f0e87bce4ca16\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\712f0ed3adacfe5da09276ae3d895a81\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\22206cafd43ebdd200a57946ccf471aa\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e1b13bdd9002d59015529bb153f36d43\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\59e7ab5ab881f6d6b18b3207a1f71e29\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b448eeadd9344e377db6ce91ed38f2e9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3f064305456a26d7612792e5dcd01f6c\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\be7acfdbfd31e8a0b5dad63939a8f1de\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3b5f33a5677108152932e8b8d7b62176\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\46064b9613e01513c77c425125634a03\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bb3390a370f1a633e35be4c965db9d43\print-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+	package
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:4:5-51
+	xmlns:dist
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:3:5-61
+	android:versionCode
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:1-105:12
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:2:11-69
+dist:module
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:7:5-40
+	dist:instant
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:7:18-37
+application
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:9:5-104:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fd5af5ed399c2fe2609d80691d79245e\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fd5af5ed399c2fe2609d80691d79245e\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f3727a8777fd24b60f54249987d59532\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f3727a8777fd24b60f54249987d59532\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\c51d6c02fa9228d192dac3fde16671da\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\c51d6c02fa9228d192dac3fde16671da\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0883e67429661c336cb35c3b715377f3\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0883e67429661c336cb35c3b715377f3\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4e661bb7e749bfa7b3687f432344ee08\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4e661bb7e749bfa7b3687f432344ee08\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6e8f751374d6f9ddd41767fd0b9238a2\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6e8f751374d6f9ddd41767fd0b9238a2\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3f064305456a26d7612792e5dcd01f6c\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3f064305456a26d7612792e5dcd01f6c\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:12:9-25
+	tools:ignore
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:16:9-48
+	android:roundIcon
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.aorms.Main2Activity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:20:13-50
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:19:13-57
+	android:theme
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:18:13-42
+activity#com.example.aorms.HM_assignWaiterActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:24:9-25:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:25:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:24:19-58
+activity#com.example.aorms.HM_assigntableActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:27:9-28:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:28:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:27:19-57
+activity#com.example.aorms.PaymentActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:30:9-53
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:30:19-50
+activity#com.example.aorms.AssignWaiterActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:32:9-33:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:33:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:32:19-55
+activity#com.example.aorms.ThresholdActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:35:9-36:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:36:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:35:19-52
+activity#com.example.aorms.NotificationActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:38:9-39:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:39:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:38:19-55
+activity#com.example.aorms.LoginActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:41:9-42:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:42:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:41:19-48
+activity#com.example.aorms.ChefListActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:44:9-47:41
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:46:13-50
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:47:13-38
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:45:13-45
+activity#com.example.aorms.Report
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:49:9-52:72
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:51:13-50
+	android:theme
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:50:13-35
+activity#com.example.aorms.ChefQueActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:53:9-54:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:54:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:53:19-50
+activity#com.example.aorms.Addinventory
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:55:9-56:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:56:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:55:19-47
+activity#com.example.aorms.Pakistani
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:57:9-58:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:58:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:57:19-44
+activity#com.example.aorms.AddUser
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:59:9-60:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:60:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:59:19-42
+activity#com.example.aorms.Login
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:61:9-63:20
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:62:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:61:19-40
+activity#com.example.aorms.Adder
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:64:9-65:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:65:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:64:19-40
+activity#com.example.aorms.HMSpecialOrderActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:66:9-69:53
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:69:13-50
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:68:13-41
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:67:13-51
+activity#com.example.aorms.KM_Recycle_Page
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:71:9-79:20
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:73:13-44
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:72:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:74:13-78:29
+action#android.intent.action.MAIN
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:77:17-77
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:77:27-74
+activity#com.example.aorms.HM_Recycle_Page
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:81:9-85:20
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:84:13-50
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:83:13-41
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:82:13-44
+activity#com.example.aorms.KMSpecialOrderActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:86:9-89:53
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:89:13-50
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:87:13-51
+activity#com.example.aorms.HM_DishSelect
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:90:9-93:53
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:93:13-50
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:92:13-41
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:91:13-42
+activity#com.example.aorms.KM_DishSelect
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:94:9-97:53
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:97:13-50
+	android:label
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:96:13-44
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:95:13-42
+activity#com.example.aorms.AddIngrediante
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:99:9-100:52
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:100:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:99:19-49
+activity#com.example.aorms.MainActivity
+ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:101:9-103:20
+	android:screenOrientation
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:102:13-50
+	android:name
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml:101:19-47
+uses-sdk
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fd5af5ed399c2fe2609d80691d79245e\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fd5af5ed399c2fe2609d80691d79245e\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\dbe493a215c12b16b842e729f6d7f5f8\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\dbe493a215c12b16b842e729f6d7f5f8\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f3727a8777fd24b60f54249987d59532\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f3727a8777fd24b60f54249987d59532\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\c51d6c02fa9228d192dac3fde16671da\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\c51d6c02fa9228d192dac3fde16671da\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0883e67429661c336cb35c3b715377f3\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0883e67429661c336cb35c3b715377f3\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6d603a410b84297a20ae16898e90454c\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6d603a410b84297a20ae16898e90454c\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f6a2e342028971f08b98514d4fe14869\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f6a2e342028971f08b98514d4fe14869\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4e661bb7e749bfa7b3687f432344ee08\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4e661bb7e749bfa7b3687f432344ee08\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6e8f751374d6f9ddd41767fd0b9238a2\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6e8f751374d6f9ddd41767fd0b9238a2\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0546ab4e7608c7715029f0b511261acf\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\0546ab4e7608c7715029f0b511261acf\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e0521e32c1a8b86d42e9784023699798\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e0521e32c1a8b86d42e9784023699798\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\7537216abfe2284547983fffe7f1cdc3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\7537216abfe2284547983fffe7f1cdc3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3e9c67073f4685bc882a5d5b88bb034c\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3e9c67073f4685bc882a5d5b88bb034c\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bbf291d06e6d73e5a69cf00e352da007\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bbf291d06e6d73e5a69cf00e352da007\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\ef1f2f8209945c9c9b05dff0985ea3c0\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\ef1f2f8209945c9c9b05dff0985ea3c0\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\a55e7986de8d8f2644af0f215ba3f8e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\a55e7986de8d8f2644af0f215ba3f8e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\311dc5891883bf77f7522055b4693dd7\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\311dc5891883bf77f7522055b4693dd7\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3c16f5091db1e3ae8df9f2afbbfffb69\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3c16f5091db1e3ae8df9f2afbbfffb69\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\85803006e29ded2666eadf0130116cfe\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\85803006e29ded2666eadf0130116cfe\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f219ed8da0a1f3f157686bd0fcb1ff24\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\f219ed8da0a1f3f157686bd0fcb1ff24\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\1c29eba8257a108da88071c959e58639\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\1c29eba8257a108da88071c959e58639\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fcbe7a7bca2d6ec0dc8b9a29dffd4e2b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\fcbe7a7bca2d6ec0dc8b9a29dffd4e2b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9d69be0293d4431ce361bf9eef5eb798\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9d69be0293d4431ce361bf9eef5eb798\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4890467b861f8e91f6c2216a2f5cc5c6\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\4890467b861f8e91f6c2216a2f5cc5c6\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bad4e29915074b3cb8204cb148676412\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bad4e29915074b3cb8204cb148676412\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3d546ff4cebcd01f3e9ef1c20a0fbff4\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3d546ff4cebcd01f3e9ef1c20a0fbff4\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\1ba13e78580396645a1c72528ad933b1\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\1ba13e78580396645a1c72528ad933b1\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6b2c182e11b16cc0a429d7862677a38d\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6b2c182e11b16cc0a429d7862677a38d\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\878b964d78564d0d46095360e074f07c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\878b964d78564d0d46095360e074f07c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3aa3f1d118a1b83d4576a1f11485b821\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3aa3f1d118a1b83d4576a1f11485b821\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d6ce7fc378f620ebbf8f0e87bce4ca16\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d6ce7fc378f620ebbf8f0e87bce4ca16\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\712f0ed3adacfe5da09276ae3d895a81\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\712f0ed3adacfe5da09276ae3d895a81\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\22206cafd43ebdd200a57946ccf471aa\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\22206cafd43ebdd200a57946ccf471aa\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e1b13bdd9002d59015529bb153f36d43\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e1b13bdd9002d59015529bb153f36d43\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\59e7ab5ab881f6d6b18b3207a1f71e29\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\59e7ab5ab881f6d6b18b3207a1f71e29\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b448eeadd9344e377db6ce91ed38f2e9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b448eeadd9344e377db6ce91ed38f2e9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3f064305456a26d7612792e5dcd01f6c\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3f064305456a26d7612792e5dcd01f6c\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\be7acfdbfd31e8a0b5dad63939a8f1de\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\be7acfdbfd31e8a0b5dad63939a8f1de\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3b5f33a5677108152932e8b8d7b62176\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\3b5f33a5677108152932e8b8d7b62176\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\46064b9613e01513c77c425125634a03\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\46064b9613e01513c77c425125634a03\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bb3390a370f1a633e35be4c965db9d43\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\bb3390a370f1a633e35be4c965db9d43\print-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+		ADDED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Downloads\AROMS-FINAL\aorms-seea-master\AORMS\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\d2689114989bd6c06baeed52e78bcfe2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\764344a83a871e807ec10c0d5da54a18\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\6658cf7de5136e56367a6f4e679b2d35\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\b54acaf2f7ccb2f82357e9d4458a19a5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Minahil Imtiaz\.gradle\caches\transforms-2\files-2.1\e54fda396043c32bb0891f745cdebaa5\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
