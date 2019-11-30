@@ -28,7 +28,7 @@ public class DishAdapter extends RecyclerView.Adapter<DishAdapter.DishViewHolder
     @Override
     public void onBindViewHolder(@NonNull DishViewHolder holder, int position) {
         Dish dish = dishes.get(position);
-        holder.name.setText(dish.getName());
+        holder.name.setText(dish.getDish_name());
         holder.type.setText(dish.getType());
     }
 
@@ -45,31 +45,20 @@ public class DishAdapter extends RecyclerView.Adapter<DishAdapter.DishViewHolder
     }
 
     public interface OnItemClickedListener{
-        void onDelete(int position);
         void onMove(int position);
+        void onDone(int position);
     }
 
     public static class DishViewHolder extends RecyclerView.ViewHolder{
-        public Button delete,move;
+        public Button done,move;
         public TextView name,type;
         public DishViewHolder(View viewItem, final OnItemClickedListener listener){
             super(viewItem);
             name = (TextView) itemView.findViewById(R.id.dishName);
             type = (TextView) itemView.findViewById(R.id.dishType);
-            delete = (Button) itemView.findViewById(R.id.deletebutton);
             move = (Button)itemView.findViewById(R.id.movebutton);
-            delete.setOnClickListener(new View.OnClickListener(){
+            done = (Button)itemView.findViewById(R.id.donebutton);
 
-                @Override
-                public void onClick(View view) {
-                    if(listener!= null){
-                        int position = getAdapterPosition();
-                        if(position!= RecyclerView.NO_POSITION){
-                            listener.onDelete(position);
-                        }
-                    }
-                }
-            });
             move.setOnClickListener(new View.OnClickListener(){
 
                 @Override
@@ -78,6 +67,19 @@ public class DishAdapter extends RecyclerView.Adapter<DishAdapter.DishViewHolder
                         int position = getAdapterPosition();
                         if(position!= RecyclerView.NO_POSITION){
                             listener.onMove(position);
+                        }
+                    }
+                }
+            });
+
+            done.setOnClickListener(new View.OnClickListener(){
+
+                @Override
+                public void onClick(View view) {
+                    if(listener!= null){
+                        int position = getAdapterPosition();
+                        if(position!= RecyclerView.NO_POSITION){
+                            listener.onDone(position);
                         }
                     }
                 }

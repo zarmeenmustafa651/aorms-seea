@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@mipmap/chef"
+
+        />
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/chefName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:text="Chef Name"
+            android:textColor="#000" />
+        <TextView
+            android:id="@+id/chefSpecialty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:text="Chef Specialty"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/viewqueuebutton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:text="View Queue"
+        android:layout_marginLeft="275dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/editthresholdbutton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:text="Edit Threshold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+</LinearLayout>

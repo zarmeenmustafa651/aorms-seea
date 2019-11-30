@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".KitchenManagerScreenActivity">
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/queues"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:text="View Queues (list of 3 queues)"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/chefs"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:text="Show Chefs list"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/specialorder"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:text="Make Special Order"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+</LinearLayout>

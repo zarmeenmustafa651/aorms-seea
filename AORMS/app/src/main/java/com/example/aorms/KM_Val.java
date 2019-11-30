@@ -3,7 +3,9 @@ package com.example.aorms;
 public class KM_Val {
 
     String orderval;
-    public  KM_Val(String a){
+    String orderkey;
+    public  KM_Val(String a, String b){
         orderval=a;
+        orderkey=b;
     }
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dishName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:text="Dish Name"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/dishType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:text="Dish type"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:orientation="vertical">
+<TextView
+    android:layout_marginLeft="10dp"
+    android:textStyle="bold|italic"
+    android:layout_width="325dp"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:textColor="#000"
+    android:text="Estimated Completion Time"
+    />
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:layout_marginLeft="100dp"
+        android:text="Dish Quantity"
+        />
+</LinearLayout>
+</LinearLayout>
