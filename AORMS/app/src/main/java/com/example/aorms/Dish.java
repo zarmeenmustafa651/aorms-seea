@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable;
 
 public class Dish {
     String name;
-Drawable img;
+    Drawable img;
     String type;
 
     public Dish(String n, String t){
