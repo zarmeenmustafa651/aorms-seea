@@ -4,9 +4,11 @@ import com.google.firebase.database.IgnoreExtraProperties;
 
 import java.sql.Time;
 import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
 @IgnoreExtraProperties
 public class OrderModel {
+    Date date;
     String order_id;
     String status;
     int table_id;
@@ -15,7 +17,7 @@ public class OrderModel {
     List<OrderDishInfoModel> OrderPlaced;
 
     public OrderModel() {}
-    public OrderModel(String order_id, String status, int table_id, int order_prep_time, float bill, List<OrderDishInfoModel> orderPlaced) {
+    public OrderModel(Date date, String order_id, String status, int table_id, int order_prep_time, float bill, List<OrderDishInfoModel> orderPlaced) {
         this.order_id = order_id;
         this.status = status;
         this.table_id = table_id;
