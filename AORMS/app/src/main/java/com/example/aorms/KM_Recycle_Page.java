@@ -16,73 +16,79 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
 
 public class KM_Recycle_Page extends AppCompatActivity implements RecyclerView.OnItemTouchListener{
 
     RecyclerView rv;
     KM_Adapter md;
-    ArrayList<KM_Val> dt=new ArrayList<>();
+    ArrayList<KM_Val> dt;
     Context c;
     GestureDetector gestureDetector;
+
+    FirebaseDatabase database;
+    DatabaseReference myRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_km__recycle__page);
-
-        String[] myItems = new String[]{"Order No: 9", "Order No: 10", "Order No: 11", "Order No: 4", "Order No: 2","Order No: 1"};
-
-
-
         c=this;
+        dt = new ArrayList<>();
 
-        KM_Val km1=new KM_Val("Order No: 9");
-        KM_Val km2=new KM_Val("Order No: 9");
-        KM_Val km3=new KM_Val("Order No: 9");
-        KM_Val km4=new KM_Val("Order No: 9");
-        KM_Val km5=new KM_Val("Order No: 9");
-        KM_Val km6=new KM_Val("Order No: 9");
-        KM_Val km7=new KM_Val("Order No: 9");
-
-        dt.add(km1);
-        dt.add(km2);
-        dt.add(km3);
-        dt.add(km4);
-        dt.add(km5);
-        dt.add(km6);
-        dt.add(km7);
-
-        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                //android.R.layout.simple_list_item_1, android.R.id.text1, myItems);
-
+    }
+    protected void onStart() {
+        super.onStart();
         c=getApplicationContext();
         rv=findViewById(R.id.rv_km);
 
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference("Orders");
+
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                int i = 0;
+                for (DataSnapshot orderSnapshot : dataSnapshot.getChildren()) {
+                    i++;
+                    OrderModel orderModel = orderSnapshot.getValue(OrderModel.class);
+                    if (!orderModel.getStatus().equalsIgnoreCase("paid")){
+                        KM_Val km =new KM_Val("Order No: " + orderSnapshot.getKey(), orderSnapshot.getKey());
+                                //new KM_Val ("Order No: " + String.valueOf(i), orderSnapshot.getKey());
+                        dt.add(km);
+                    }
+                }
+                md.notifyDataSetChanged();
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                Toast.makeText(getApplicationContext() , "Error fetching data from Order Table " ,Toast.LENGTH_LONG ).show();
+
+            }
+        });
 
         gestureDetector = new GestureDetector(c, new GestureDetector.SimpleOnGestureListener()
         {
             @Override
             public boolean onSingleTapUp(MotionEvent e) {
-                //      Toast.makeText(c,"onSingleTap",Toast.LENGTH_SHORT).show();
-
                 View child = rv.findChildViewUnder(e.getX(), e.getY());
                 if(child != null)
                 {
-
-
                     Intent i= new Intent(getApplicationContext(),KM_DishSelect.class);
-                    i.putExtra("Orderno","9");
-					i.putExtra("KM_name","shafin");
+                    int row = rv.getChildAdapterPosition(child);
+                    i.putExtra("orderkey", dt.get(row).orderkey);
                     startActivity(i);
-
-
                 }
                 return true;
             }
         });
-
-
 
         md=new KM_Adapter(dt,R.layout.card_km);
         RecyclerView rv=(RecyclerView) findViewById(R.id.rv_km);
@@ -90,9 +96,7 @@ public class KM_Recycle_Page extends AppCompatActivity implements RecyclerView.O
         rv.addOnItemTouchListener(this);
         rv.setItemAnimator(new DefaultItemAnimator());
         rv.setAdapter(md);
-
     }
-
     @Override
     public boolean onInterceptTouchEvent(@NonNull RecyclerView rv, @NonNull MotionEvent e) {
         gestureDetector.onTouchEvent(e);
