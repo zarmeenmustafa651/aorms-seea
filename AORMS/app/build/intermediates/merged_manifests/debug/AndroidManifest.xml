@@ -11,22 +11,126 @@
 
     <dist:module dist:instant="true" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.aorms.MainActivity" >
+        <activity
+            android:name="com.example.aorms.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.aorms.HM_assignWaiterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.HM_assigntableActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.example.aorms.PaymentActivity" />
+        <activity
+            android:name="com.example.aorms.AssignWaiterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.ThresholdActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.NotificationActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.LoginActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.ChefListActivity"
+            android:label="Chef List"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.Report"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.aorms.ChefQueActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.Addinventory"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.Pakistani"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.AddUser"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.Login"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.aorms.Adder"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.HMSpecialOrderActivity"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.KM_Recycle_Page"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.HM_Recycle_Page"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.KMSpecialOrderActivity"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.HM_DishSelect"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.KM_DishSelect"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.AddIngrediante"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.aorms.MainActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.aorms.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.aorms.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

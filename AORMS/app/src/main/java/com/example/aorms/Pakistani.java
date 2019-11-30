@@ -1,8 +1,9 @@
-package com.example.muhammadzain.myapplication;
+package com.example.aorms;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -10,10 +11,20 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Pakistani extends AppCompatActivity {
     EditText b,a;
     String s,t,c,d;
     Button btn1;
+    DatabaseReference dishDatabase;
+    Spinner dishName; //ctype
+    Spinner dishType; //ctype2
+    EditText price; //price
+    EditText expTime; //time
+    EditText descp; //Description
+    String  name;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +51,15 @@ public class Pakistani extends AppCompatActivity {
         x=findViewById(R.id.ctype);
         x.setAdapter(ad);
         b=findViewById(R.id.Dname);
+
+        dishDatabase = FirebaseDatabase.getInstance().getReference().child("Dish");
+        dishName = (Spinner) findViewById(R.id.ctype);
+        dishType = (Spinner) findViewById(R.id.ctype2);
+        price = (EditText) findViewById(R.id.price);
+        expTime = (EditText) findViewById(R.id.time);
+        descp = (EditText) findViewById(R.id.Description);
+
+         name = dishName.getSelectedItem().toString();
 
         x.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -83,9 +103,25 @@ public class Pakistani extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Pakistani.this, AddIngrediante.class);
+                i.putExtra("DishName",name);
                 startActivity(i);
             }
         });
 
+    }
+    public void AddDish(View v)
+    {
+
+        String type = dishType.getSelectedItem().toString();
+        String pri = price.getText().toString();
+        String time = expTime.getText().toString();
+
+        int val = Integer.parseInt(pri);
+        int val2= Integer.parseInt(time);
+
+        Dish dish =  new Dish(name,type,val,val2);
+
+        String id = dishDatabase.push().getKey();
+        dishDatabase.child(id).setValue(dish);
     }
 }

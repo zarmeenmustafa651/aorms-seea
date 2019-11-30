@@ -1,4 +1,4 @@
-package com.example.muhammadzain.myapplication;
+package com.example.aorms;
 
 import org.junit.Test;
 

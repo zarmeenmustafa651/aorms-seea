@@ -1,0 +1,4 @@
+#Wed Nov 20 17:22:25 PKT 2019
+base.0=C\:\\Users\\zarme\\Desktop\\GitHub\\aorms-seea\\AORMS\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

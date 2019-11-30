@@ -1,27 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.muhammadzain.myapplication">
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aorms">
+
+    <dist:module dist:instant="true" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".AddIngrediante"></activity>
-        <activity android:name=".Addinventory" />
-        <activity android:name=".Pakistani" />
-        <activity android:name=".AddUser" />
-        <activity android:name=".Login" />
-        <activity android:name=".Adder" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+        <activity android:name=".HM_assignWaiterActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".HM_assigntableActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".AssignWaiterActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ThresholdActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".NotificationActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".ChefListActivity"
+            android:screenOrientation="landscape"
+            android:label="Chef List" />
+        
+        <activity
+            android:name=".Report"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ChefQueActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Addinventory"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Pakistani"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".AddUser"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Login"
+            android:screenOrientation="landscape">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Adder"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".HMSpecialOrderActivity"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KM_Recycle_Page"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HM_Recycle_Page"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KMSpecialOrderActivity"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HM_DishSelect"
+            android:label="Hall Manager"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KM_DishSelect"
+            android:label="Kitchen Manager"
+            android:screenOrientation="landscape" />
+    
+        <activity android:name=".AddIngrediante"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
         </activity>
     </application>
-
 </manifest>

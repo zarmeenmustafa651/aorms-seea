@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".AddIngrediante">
-
-
     <TextView
         android:id="@+id/userNameView"
         android:layout_width="wrap_content"
@@ -15,7 +14,9 @@
         android:layout_marginLeft="12dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#ffffff"
         android:text="Name"
+        android:textColor="#620301"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +33,9 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#620301"
         android:text="Please Provide Dish Information!!!"
+        android:textColor="#ffffff"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,23 +52,27 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="144dp"
         android:text="Quantity:"
+        android:background="#ffffff"
+        android:textColor="#620301"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userNameView" />
 
     <EditText
         android:id="@+id/price"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="156dp"
+        android:layout_height="41dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:background="#ffffff"
         android:ems="10"
         android:inputType="number|numberDecimal"
+        android:textColor="#620301"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toEndOf="@+id/usertype"
         app:layout_constraintTop_toBottomOf="@+id/IngName" />
 
@@ -83,6 +90,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/userNameView"
+        android:background="#ffffff"
+        android:textColor="#620301"
         app:layout_constraintTop_toBottomOf="@+id/IngrediantName"
         app:layout_constraintVertical_bias="0.06" />
 
@@ -98,8 +107,8 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Back"
-        android:background="#27ae60"
-        android:textColor="#ffffff"
+        android:background="#ffffff"
+        android:textColor="#620301"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -119,6 +128,8 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:background="#ffffff"
+        android:textColor="#620301"
         app:layout_constraintBottom_toTopOf="@+id/ctype"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.892"
@@ -131,19 +142,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#ffffff"
+        android:onClick="addIngredientInDatabase"
         android:text="Add"
-        android:background="#27ae60"
-        android:textColor="#ffffff"
+        android:textColor="#620301"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/price"
-        app:layout_constraintVertical_bias="0.449" />
+        app:layout_constraintVertical_bias="0.454" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="132dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="84dp"
+        android:onClick="GOBackToAdderPage"
+        android:text="Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aing" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
