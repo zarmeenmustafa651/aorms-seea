@@ -60,7 +60,7 @@
         android:id="@+id/movebutton"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:background="@drawable/rounded_button_green"
+        android:background="@drawable/rounded_rectangle_button"
         android:gravity="center"
         android:text="Move"
         android:layout_marginLeft="50dp"

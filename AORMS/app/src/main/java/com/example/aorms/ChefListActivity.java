@@ -61,12 +61,10 @@ public class ChefListActivity extends AppCompatActivity implements ChefAdapter.O
         viewQueue(position);
     }
 
-    @Override
     public void OnViewQueue(int position) {
         viewQueue(position);
     }
 
-    @Override
     public void OnChangeThreshold(int position) {
         Intent intent = new Intent(this, ChangeThresholdActivity.class);
         String id;

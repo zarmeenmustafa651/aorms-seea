@@ -49,7 +49,7 @@
             android:id="@+id/changequeSame"
             android:layout_width="200dp"
             android:layout_height="60dp"
-            android:background="@drawable/rounded_button_green"
+            android:background="@drawable/rounded_rectangle_button"
             android:gravity="center"
             android:text="Change"
 

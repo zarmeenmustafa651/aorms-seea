@@ -23,7 +23,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-
 public class KM_Recycle_Page extends AppCompatActivity implements RecyclerView.OnItemTouchListener{
 
     RecyclerView rv;
@@ -60,7 +59,7 @@ public class KM_Recycle_Page extends AppCompatActivity implements RecyclerView.O
                     OrderModel orderModel = orderSnapshot.getValue(OrderModel.class);
                     if (!orderModel.getStatus().equalsIgnoreCase("paid")){
                         KM_Val km =new KM_Val("Order No: " + orderSnapshot.getKey(), orderSnapshot.getKey());
-                                //new KM_Val ("Order No: " + String.valueOf(i), orderSnapshot.getKey());
+                        //new KM_Val ("Order No: " + String.valueOf(i), orderSnapshot.getKey());
                         dt.add(km);
                     }
                 }
@@ -91,7 +90,6 @@ public class KM_Recycle_Page extends AppCompatActivity implements RecyclerView.O
         });
 
         md=new KM_Adapter(dt,R.layout.card_km);
-        RecyclerView rv=(RecyclerView) findViewById(R.id.rv_km);
         rv.setLayoutManager(new LinearLayoutManager(this));
         rv.addOnItemTouchListener(this);
         rv.setItemAnimator(new DefaultItemAnimator());
