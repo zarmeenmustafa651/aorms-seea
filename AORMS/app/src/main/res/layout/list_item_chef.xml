@@ -24,8 +24,7 @@
             android:layout_height="wrap_content"
             android:textSize="36dp"
             android:text="Chef Name"
-            android:textColor="#000"
-            />
+            android:textColor="#000" />
         <TextView
             android:id="@+id/chefSpecialty"
             android:layout_width="match_parent"
@@ -34,5 +33,26 @@
             android:textColor="#000"
             android:text="Chef Specialty"
             />
+
     </LinearLayout>
+    <Button
+        android:id="@+id/viewqueuebutton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:text="View Queue"
+        android:layout_marginLeft="275dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/editthresholdbutton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:text="Edit Threshold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
 </LinearLayout>

@@ -1,9 +1,9 @@
 package com.example.aorms;
 
-public class UpdateAndSpecialOrder {
+public class DeleteOrder {
     String orderId;
-    public UpdateAndSpecialOrder(){}
-    public UpdateAndSpecialOrder(String orderId) {
+
+    public DeleteOrder(String orderId) {
         this.orderId = orderId;
     }
 

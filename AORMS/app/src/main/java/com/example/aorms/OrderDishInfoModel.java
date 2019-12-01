@@ -2,9 +2,12 @@ package com.example.aorms;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 
-import java.io.Serializable;
+import java.sql.Time;
+import java.sql.Timestamp;
+
 @IgnoreExtraProperties
-public class OrderDishInfoModel implements Serializable {
+public class OrderDishInfoModel {
+
 
     int dish_id;
     int priority;

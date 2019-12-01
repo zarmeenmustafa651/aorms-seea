@@ -22,7 +22,7 @@ public class DishAdapter extends RecyclerView.Adapter<DishAdapter.DishViewHolder
     @Override
     public void onBindViewHolder(@NonNull DishViewHolder holder, int position) {
         Dish dish = dishes.get(position);
-        holder.name.setText(dish.getName());
+        holder.name.setText(dish.getDish_name());
         holder.type.setText(dish.getType());
     }
 
@@ -38,12 +38,46 @@ public class DishAdapter extends RecyclerView.Adapter<DishAdapter.DishViewHolder
     public int getItemCount() {
         return dishes.size();
     }
-    public class DishViewHolder extends RecyclerView.ViewHolder{
+    public interface OnItemClickedListener{
+        void onMove(int position);
+        void onDone(int position);
+    }
+
+    public static class DishViewHolder extends RecyclerView.ViewHolder{
+        public Button done,move;
         public TextView name,type;
         public DishViewHolder(View viewItem){
             super(viewItem);
             name = (TextView) itemView.findViewById(R.id.dishName);
             type = (TextView) itemView.findViewById(R.id.dishType);
+            move = (Button)itemView.findViewById(R.id.movebutton);
+            done = (Button)itemView.findViewById(R.id.donebutton);
+
+            move.setOnClickListener(new View.OnClickListener(){
+
+                @Override
+                public void onClick(View view) {
+                    if(listener!= null){
+                        int position = getAdapterPosition();
+                        if(position!= RecyclerView.NO_POSITION){
+                            listener.onMove(position);
+                        }
+                    }
+                }
+            });
+
+            done.setOnClickListener(new View.OnClickListener(){
+
+                @Override
+                public void onClick(View view) {
+                    if(listener!= null){
+                        int position = getAdapterPosition();
+                        if(position!= RecyclerView.NO_POSITION){
+                            listener.onDone(position);
+                        }
+                    }
+                }
+            });
         }
 }
 }

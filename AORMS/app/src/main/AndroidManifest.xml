@@ -92,4 +92,22 @@
             android:screenOrientation="landscape">
         </activity>
     </application>
+        <activity android:name=".KitchenManagerScreenActivity" >
+
+        </activity>
+        <activity android:name=".SelectModuleActivity" />
+        <activity android:name=".MakeOrderActivity">
+        </activity>
+        <activity android:name=".QueuesListActivity" />
+        <activity android:name=".ChefScreenActivity" />
+        <activity android:name=".ChangeThresholdActivity" />
+        <activity android:name=".SameQueueChangeActivity" />
+        <activity android:name=".DifferentQueueChangeActivity" />
+        <activity android:name=".QueueChangeActivity" />
+        <activity
+            android:name=".ChefListActivity"
+            android:label="Chef List" />
+        <activity android:name=".ChefQueActivity" />
+
+    </application>
 </manifest>
