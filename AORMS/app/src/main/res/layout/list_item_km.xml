@@ -5,7 +5,6 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     >
-
     <LinearLayout
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -60,7 +59,7 @@
         android:id="@+id/movebutton"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:background="@drawable/rounded_rectangle_button"
+        android:background="@drawable/rounded_button_green"
         android:gravity="center"
         android:text="Move"
         android:layout_marginLeft="50dp"
@@ -76,4 +75,5 @@
         android:layout_marginLeft="10dp"
         android:textColor="#ffffff"
         android:textSize="18dp" />
+
 </LinearLayout>

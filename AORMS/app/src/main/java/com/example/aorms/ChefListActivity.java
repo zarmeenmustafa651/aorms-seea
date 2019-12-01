@@ -17,6 +17,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
+
 public class ChefListActivity extends AppCompatActivity implements ChefAdapter.OnChefListener {
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
@@ -61,10 +62,12 @@ public class ChefListActivity extends AppCompatActivity implements ChefAdapter.O
         viewQueue(position);
     }
 
+    @Override
     public void OnViewQueue(int position) {
         viewQueue(position);
     }
 
+    @Override
     public void OnChangeThreshold(int position) {
         Intent intent = new Intent(this, ChangeThresholdActivity.class);
         String id;
@@ -76,6 +79,8 @@ public class ChefListActivity extends AppCompatActivity implements ChefAdapter.O
         Intent intent = new Intent(this, ChefQueActivity.class);
         int id;
         id = chefArrayList.get(position).getID();
-        intent.putExtra("chef_id", id);        startActivity(intent);
+        intent.putExtra("chef_id", id);
+
+        startActivity(intent);
     }
 }

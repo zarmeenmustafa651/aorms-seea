@@ -1,11 +1,9 @@
+
 package com.example.aorms;
 
-import com.google.firebase.database.IgnoreExtraProperties;
 
-import java.io.Serializable;
-
-@IgnoreExtraProperties
-public class Dish implements Serializable {
+public class Dish {
+    int dish_id;
     String name;
     String type;
     int price;
@@ -13,20 +11,32 @@ public class Dish implements Serializable {
 
     public Dish() {
     }
+    public Dish(String dishname,String type) {
+        name = dishname;
+        this.type = type;
+    }
 
-    public Dish(String name, String type, int price, int time) {
+    public Dish(String dishid, String name, String type, int price, int time) {
+        this.dish_id = Integer.parseInt(dishid);
         this.name = name;
         this.type = type;
         this.price = price;
         this.time = time;
     }
+    public int getDish_id() {
+        return dish_id;
+    }
 
-    public String getName() {
+    public void setDish_id(int dish_id) {
+        this.dish_id = dish_id;
+    }
+
+    public String getDish_name() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDish_name(String dish_name) {
+        this.name = dish_name;
     }
 
     public String getType() {
@@ -51,5 +61,12 @@ public class Dish implements Serializable {
 
     public void setTime(int time) {
         this.time = time;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

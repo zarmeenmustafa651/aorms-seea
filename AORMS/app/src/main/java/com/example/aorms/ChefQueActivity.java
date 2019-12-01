@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
+
 import java.util.Calendar;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -274,7 +275,6 @@ public class ChefQueActivity extends AppCompatActivity {
 
             }
         });
-
     }
 
     public void getUpdatesAfterInterval()

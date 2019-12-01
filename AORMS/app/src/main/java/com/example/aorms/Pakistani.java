@@ -113,9 +113,9 @@ public class Pakistani extends AppCompatActivity {
         int val = Integer.parseInt(pri);
         int val2= Integer.parseInt(time);
 
-        Dish dish =  new Dish(name,type,val,val2);
-
         String id = dishDatabase.push().getKey();
+        Dish dish =  new Dish(id,name,type,val,val2);
+
         dishDatabase.child(id).setValue(dish);
     }
 }

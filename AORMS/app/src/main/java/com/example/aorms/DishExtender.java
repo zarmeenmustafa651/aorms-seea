@@ -9,7 +9,7 @@ public class DishExtender extends Dish implements Serializable {
     int count;
 
     public DishExtender(Dish dish, String id) {
-        super(dish.name, dish.type, dish.price, dish.time);
+        super(id, dish.name, dish.type,dish.price, dish.time);
         this.selected = false;
         this.count = 1;
         this.id=id;

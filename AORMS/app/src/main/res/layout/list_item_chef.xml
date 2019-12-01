@@ -33,12 +33,14 @@
             android:textColor="#000"
             android:text="Chef Specialty"
             />
+
+
     </LinearLayout>
     <Button
         android:id="@+id/viewqueuebutton"
         android:layout_width="170dp"
         android:layout_height="50dp"
-        android:background="@drawable/rounded_rectangle_button"
+        android:background="@drawable/rounded_button_green"
         android:gravity="center"
         android:text="View Queue"
         android:layout_marginLeft="275dp"
@@ -48,7 +50,7 @@
         android:id="@+id/editthresholdbutton"
         android:layout_width="170dp"
         android:layout_height="50dp"
-        android:background="@drawable/rounded_rectangle_button"
+        android:background="@drawable/rounded_button_green"
         android:gravity="center"
         android:text="Edit Threshold"
         android:layout_marginLeft="10dp"

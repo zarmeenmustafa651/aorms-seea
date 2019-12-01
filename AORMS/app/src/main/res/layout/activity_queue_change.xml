@@ -19,7 +19,7 @@
             android:id="@+id/samechef"
             android:layout_width="400dp"
             android:layout_height="60dp"
-            android:background="@drawable/rounded_rectangle_button"
+            android:background="@drawable/rounded_button_green"
             android:gravity="center"
             android:text="Change in same chef's Queue"
 
@@ -38,7 +38,7 @@
             android:id="@+id/otherchef"
             android:layout_width="400dp"
             android:layout_height="60dp"
-            android:background="@drawable/rounded_rectangle_button"
+            android:background="@drawable/rounded_button_green"
             android:gravity="center"
             android:text="Move to another chef's Queue"
 

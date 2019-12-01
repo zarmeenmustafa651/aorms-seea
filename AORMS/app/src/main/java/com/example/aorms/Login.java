@@ -59,6 +59,14 @@ public class Login extends AppCompatActivity {
 
                 if(Username.equals("kitchen") && Password.equals("kitchen")) {
                     //Kitchcen Manager
+					Intent i = new Intent(Login.this, KitchenManagerScreenActivity.class);
+                    startActivity(i);
+                }
+				
+				if(Username.equals("chef") && Password.equals("chef")) {
+                    //Kitchcen Manager
+					Intent i = new Intent(Login.this, ChefScreenActivity.class);
+                    startActivity(i);
                 }
             }
         });

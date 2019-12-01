@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -42,12 +43,40 @@ public class ChefAdapter extends RecyclerView.Adapter<ChefAdapter.ChefViewHolder
     public class ChefViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView name,specialty;
         OnChefListener chefListener;
+        Button changeThreshold,viewQueue;
         public ChefViewHolder(View viewItem, OnChefListener onChefListener){
             super(viewItem);
             name = (TextView) itemView.findViewById(R.id.chefName);
             specialty = (TextView) itemView.findViewById(R.id.chefSpecialty);
             chefListener = onChefListener;
             viewItem.setOnClickListener(this);
+            changeThreshold = (Button) itemView.findViewById(R.id.editthresholdbutton);
+            viewQueue = (Button)itemView.findViewById(R.id.viewqueuebutton);
+            changeThreshold.setOnClickListener(new View.OnClickListener(){
+
+                @Override
+                public void onClick(View view) {
+                    if(mOnChefListener!= null){
+                        int position = getAdapterPosition();
+                        if(position!= RecyclerView.NO_POSITION){
+                            mOnChefListener.OnChangeThreshold(position);
+                        }
+                    }
+                }
+            });
+            viewQueue.setOnClickListener(new View.OnClickListener(){
+
+                @Override
+                public void onClick(View view) {
+                    if(mOnChefListener!= null){
+                        int position = getAdapterPosition();
+                        if(position!= RecyclerView.NO_POSITION){
+                            mOnChefListener.OnViewQueue(position);
+                        }
+                    }
+                }
+            });
+
         }
 
         @Override
@@ -58,6 +87,8 @@ public class ChefAdapter extends RecyclerView.Adapter<ChefAdapter.ChefViewHolder
     }
     public interface OnChefListener{
         void OnChefClick(int position);
+        void OnViewQueue(int position);
+        void OnChangeThreshold(int position);
     }
 
 }
