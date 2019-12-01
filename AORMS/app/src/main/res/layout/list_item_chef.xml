@@ -33,7 +33,6 @@
             android:textColor="#000"
             android:text="Chef Specialty"
             />
-
     </LinearLayout>
     <Button
         android:id="@+id/viewqueuebutton"
