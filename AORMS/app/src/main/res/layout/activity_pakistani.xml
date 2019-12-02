@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Pakistani">
 
 
@@ -16,7 +17,9 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="#ffffff"
         android:text="Dish:"
+        android:textColor="#620301"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.023"
@@ -33,7 +36,9 @@
         android:layout_marginTop="96dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="#ffffff"
         android:text="Type:"
+        android:textColor="#620301"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.023"
@@ -50,6 +55,7 @@
         android:layout_marginEnd="229dp"
         android:layout_marginRight="229dp"
         android:text="Please Provide Dish Information!!!"
+        android:textColor="#ffffff"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,58 +65,66 @@
         android:id="@+id/pass"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#ffffff"
         android:text="Exp Time:"
+        android:textColor="#620301"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usertype"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.107"
+        android:layout_marginLeft="4dp" />
 
     <TextView
         android:id="@+id/usertype"
         android:layout_width="wrap_content"
         android:layout_height="33dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="88dp"
+        android:background="#ffffff"
         android:text="Price:"
+        android:textColor="#620301"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userNameView3" />
 
     <EditText
         android:id="@+id/price"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="135dp"
+        android:layout_height="28dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:background="#ffffff"
         android:ems="10"
         android:inputType="number|numberDecimal"
+        android:textColor="#620301"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/usertype"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533" />
+        app:layout_constraintVertical_bias="0.493" />
 
     <EditText
         android:id="@+id/time"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="135dp"
+        android:layout_height="28dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="48dp"
+        android:background="#ffffff"
         android:ems="10"
         android:inputType="number|numberDecimal"
+        android:textColor="#620301"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toEndOf="@+id/pass"
         app:layout_constraintTop_toBottomOf="@+id/price" />
 
@@ -124,6 +138,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#ffffff"
+        android:textColor="#620301"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.836"
@@ -136,31 +152,29 @@
         android:layout_width="259dp"
         android:layout_height="33dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
+        android:background="#ffffff"
+        android:textColor="#620301"
         app:layout_constraintBottom_toTopOf="@+id/price"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Dtype"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <Button
         android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="#27ae60"
+        android:background="#ffffff"
         android:text="Next"
-        android:textColor="#ffffff"
+        android:textColor="#620301"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/time"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintTop_toBottomOf="@+id/Description"
+        app:layout_constraintVertical_bias="0.824" />
 
     <EditText
         android:id="@+id/Dname"
@@ -172,8 +186,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#ffffff"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="#620301"
         app:layout_constraintBottom_toTopOf="@+id/ctype"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.902"
@@ -186,11 +202,47 @@
         android:layout_width="232dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
+        android:textColor="#620301"
+        android:background="#ffffff"
         android:ems="10"
         android:inputType="textPersonName"
+
         app:layout_constraintBottom_toTopOf="@+id/price"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ctype"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.264" />
+
+
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#ffffff"
+        android:text="Discription:"
+        android:textColor="#620301"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usertype"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="#620301"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disc" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

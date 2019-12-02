@@ -39,7 +39,7 @@ public class HM_Recycle_Page extends AppCompatActivity implements RecyclerView.O
         setContentView(R.layout.activity_hm__recycle__page);
 
         c=getApplicationContext();
-        rv=findViewById(R.id.rv_km);
+        rv=(RecyclerView) findViewById(R.id.rv_hm);
 
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference("Orders");
@@ -84,7 +84,6 @@ public class HM_Recycle_Page extends AppCompatActivity implements RecyclerView.O
         });
 
         md=new HM_Adapter(dt,R.layout.card_hm);
-        RecyclerView rv=(RecyclerView) findViewById(R.id.rv_hm);
         rv.setLayoutManager(new LinearLayoutManager(this));
         rv.addOnItemTouchListener(this);
         rv.setItemAnimator(new DefaultItemAnimator());

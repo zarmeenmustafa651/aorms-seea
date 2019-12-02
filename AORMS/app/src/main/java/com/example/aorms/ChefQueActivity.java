@@ -203,72 +203,72 @@ public class ChefQueActivity extends AppCompatActivity {
         deleteDishRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                    for (DataSnapshot dishDelete : dataSnapshot.getChildren())
+                for (DataSnapshot dishDelete : dataSnapshot.getChildren())
+                {
+                    String key = dishDelete.getKey();
+                    int orderPosition=0;
+                    boolean possibility=true;
+                    DeleteDishes deleteDishes = dishDelete.getValue(DeleteDishes.class);
+                    for (int i=0;i<orderModelArrayList.size();i++)
                     {
-                        String key = dishDelete.getKey();
-                        int orderPosition=0;
-                        boolean possibility=true;
-                        DeleteDishes deleteDishes = dishDelete.getValue(DeleteDishes.class);
-                        for (int i=0;i<orderModelArrayList.size();i++)
+                        if (orderModelArrayList.get(i).getOrder_id().equals(deleteDishes.getOrderId()))
                         {
-                            if (orderModelArrayList.get(i).getOrder_id().equals(deleteDishes.getOrderId()))
+                            orderPosition = i;
+                            if ((orderModelArrayList.get(i).OrderPlaced.get(deleteDishes.getDishKey()).getDish_status().equals("being_cook")) ||(orderModelArrayList.get(i).OrderPlaced.get(deleteDishes.getDishKey()).getDish_status().equals("cooked")))
                             {
-                                orderPosition = i;
-                                if ((orderModelArrayList.get(i).OrderPlaced.get(deleteDishes.getDishKey()).getDish_status().equals("being_cook")) ||(orderModelArrayList.get(i).OrderPlaced.get(deleteDishes.getDishKey()).getDish_status().equals("cooked")))
-                                {
-                                    possibility = false;
-                                }
-                                break;
+                                possibility = false;
                             }
+                            break;
                         }
-                        if (possibility)
+                    }
+                    if (possibility)
+                    {
+                        orderModelArrayList.get(orderPosition).OrderPlaced.get(deleteDishes.getDishKey()).setDish_status("canceled");
+                        boolean found = true;
+                        for (int j =0;j<chefArrayList.size();j++)
                         {
-                            orderModelArrayList.get(orderPosition).OrderPlaced.get(deleteDishes.getDishKey()).setDish_status("canceled");
-                            boolean found = true;
-                            for (int j =0;j<chefArrayList.size();j++)
+                            for (int k=0;k<chefArrayList.get(j).chefOrderQueues.size();k++)
                             {
-                                for (int k=0;k<chefArrayList.get(j).chefOrderQueues.size();k++)
+                                if (chefArrayList.get(j).chefOrderQueues.get(k).getOrder_id().equals(deleteDishes.getOrderId()))
                                 {
-                                    if (chefArrayList.get(j).chefOrderQueues.get(k).getOrder_id().equals(deleteDishes.getOrderId()))
+                                    if (chefArrayList.get(j).chefOrderQueues.get(k).getDishPosition() == deleteDishes.getDishKey())
                                     {
-                                        if (chefArrayList.get(j).chefOrderQueues.get(k).getDishPosition() == deleteDishes.getDishKey())
-                                        {
-                                            int currentWorkload = chefArrayList.get(j).currentWorkload;
-                                            currentWorkload -= chefArrayList.get(j).chefOrderQueues.get(k).estimated_time;
-                                            chefArrayList.get(j).currentWorkload = currentWorkload;
-                                            chefArrayList.get(j).chefOrderQueues.remove(k);
-                                            k--;
-                                            found = false;
-                                        }
-                                    }
-                                    if (!found)
-                                    {
-                                        break;
+                                        int currentWorkload = chefArrayList.get(j).currentWorkload;
+                                        currentWorkload -= chefArrayList.get(j).chefOrderQueues.get(k).estimated_time;
+                                        chefArrayList.get(j).currentWorkload = currentWorkload;
+                                        chefArrayList.get(j).chefOrderQueues.remove(k);
+                                        k--;
+                                        found = false;
                                     }
                                 }
                                 if (!found)
                                 {
-                                    DatabaseReference orderRef = FirebaseDatabase.getInstance().getReference("Orders");
-                                    orderRef.child(deleteDishes.getOrderId()).child("orderPlaced").child(String.valueOf(deleteDishes.getDishKey())).child("dish_status").setValue("canceled");
-                                    for (int g=0;g<chefArrayList.size();g++)
-                                    {
-                                        DatabaseReference chefOrderRef = FirebaseDatabase.getInstance().getReference("Chef");
-                                        chefOrderRef.child(String.valueOf(g+1)).setValue(chefArrayList.get(g));
-                                    }
                                     break;
                                 }
                             }
+                            if (!found)
+                            {
+                                DatabaseReference orderRef = FirebaseDatabase.getInstance().getReference("Orders");
+                                orderRef.child(deleteDishes.getOrderId()).child("orderPlaced").child(String.valueOf(deleteDishes.getDishKey())).child("dish_status").setValue("canceled");
+                                for (int g=0;g<chefArrayList.size();g++)
+                                {
+                                    DatabaseReference chefOrderRef = FirebaseDatabase.getInstance().getReference("Chef");
+                                    chefOrderRef.child(String.valueOf(g+1)).setValue(chefArrayList.get(g));
+                                }
+                                break;
+                            }
                         }
-                        else
-                        {
-                            Toast.makeText(getApplicationContext(),"Dish being cooked",Toast.LENGTH_LONG).show();
-                        }
-                        DatabaseReference db = FirebaseDatabase.getInstance().getReference("DeleteDishQueue");
-                        db.child(key).removeValue();
                     }
-                    if (dataSnapshot.getChildrenCount()>0) {
-                        updateOrderTime();
+                    else
+                    {
+                        Toast.makeText(getApplicationContext(),"Dish being cooked",Toast.LENGTH_LONG).show();
                     }
+                    DatabaseReference db = FirebaseDatabase.getInstance().getReference("DeleteDishQueue");
+                    db.child(key).removeValue();
+                }
+                if (dataSnapshot.getChildrenCount()>0) {
+                    updateOrderTime();
+                }
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {

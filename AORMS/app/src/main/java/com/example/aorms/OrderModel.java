@@ -2,11 +2,10 @@ package com.example.aorms;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 
-import java.sql.Time;
-import java.sql.Timestamp;
+import java.io.Serializable;
 import java.util.List;
 @IgnoreExtraProperties
-public class OrderModel {
+public class OrderModel implements Serializable {
     String order_id;
     String status;
     int table_id;
@@ -14,7 +13,6 @@ public class OrderModel {
     float bill;
     List<OrderDishInfoModel> OrderPlaced;
 
-    public OrderModel() {}
     public OrderModel(String order_id, String status, int table_id, int order_prep_time, float bill, List<OrderDishInfoModel> orderPlaced) {
         this.order_id = order_id;
         this.status = status;
@@ -72,6 +70,8 @@ public class OrderModel {
     public void setOrderPlaced(List<OrderDishInfoModel> orderPlaced) {
         OrderPlaced = orderPlaced;
     }
+
+    public OrderModel(){}
 
 
 }
