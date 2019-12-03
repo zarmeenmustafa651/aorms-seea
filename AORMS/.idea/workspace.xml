@@ -12,13 +12,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac0d4db0-63cd-426d-90a9-67b436fa08dc" name="Default Changelist" comment="Integration">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aorms/ui/main/ReportData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="ac0d4db0-63cd-426d-90a9-67b436fa08dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aorms/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aorms/Report.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +37,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aorms/Report.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="161" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="380">
+              <caret line="137" column="29" lean-forward="true" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1331#1337#0" expanded="true" />
                 <element signature="e#1387#1399#0" expanded="true" />
-                <element signature="method#onCreate#0;class#Report#0" />
                 <element signature="method#onCreateOptionsMenu#0;class#Report#0" />
                 <element signature="method#onOptionsItemSelected#0;class#Report#0" />
                 <element signature="method#addvalues#0;class#Report#0" />
@@ -646,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575213509066</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Integration">
+      <created>1575336949917</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575336949917</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -665,6 +666,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1684435" />
@@ -675,7 +677,7 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info active="true" anchor="bottom" id="Debug" order="0" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="0" weight="0.32917964" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.34371755" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.20664589" />
       <window_info anchor="bottom" id="Logcat" order="3" weight="0.32917964" />
@@ -753,6 +755,12 @@
           <line>77</line>
           <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aorms/Report.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1193,13 +1201,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aorms/Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="380">
+          <caret line="137" column="29" lean-forward="true" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1331#1337#0" expanded="true" />
             <element signature="e#1387#1399#0" expanded="true" />
-            <element signature="method#onCreate#0;class#Report#0" />
             <element signature="method#onCreateOptionsMenu#0;class#Report#0" />
             <element signature="method#onOptionsItemSelected#0;class#Report#0" />
             <element signature="method#addvalues#0;class#Report#0" />
