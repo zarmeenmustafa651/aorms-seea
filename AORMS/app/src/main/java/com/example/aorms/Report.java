@@ -8,11 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import com.example.aorms.ui.main.ReportData;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -22,7 +20,6 @@ import com.google.firebase.database.ValueEventListener;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
-
 import java.util.Date;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -34,7 +31,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Report extends AppCompatActivity {
-    TextView textview;
+
     GraphView graph;
     DatabaseReference dbRef, rep;
     float bill_value;
@@ -49,7 +46,6 @@ public class Report extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.report);
         Toolbar myToolbar = findViewById(R.id.tToolbar);
-         textview = findViewById(R.id.title);
         setSupportActionBar(myToolbar);
         myToolbar.setTitle("                REPORTS");
         graph = (GraphView) findViewById(R.id.graph);
@@ -73,42 +69,17 @@ public class Report extends AppCompatActivity {
 
             }
         });
+
         LineGraphSeries <DataPoint> series;
         DataPoint[] dparray= getvalues();
-        System.out.println(dparray);
-        graph = (GraphView) findViewById(R.id.graph);
-        //Button button = findViewById(R.id.addButton);
-        graph.setVisibility(View.VISIBLE);
-        series = new LineGraphSeries< >(dparray);
-        graph.addSeries(series);
-        textview.setText("Daily Sales Report");
-    }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu2,menu);
-        return true;
-    }
-    public boolean onOptionsItemSelected(MenuItem item) {
-        DataPoint[] dp;
-        LineGraphSeries <DataPoint> series;
-        Random r = new Random();
-        switch(item.getItemId()){
-            case R.id.item1:
-
-               DataPoint[] dparray= getvalues();
-                graph = (GraphView) findViewById(R.id.graph);
-                //Button button = findViewById(R.id.addButton);
-                graph.setVisibility(View.VISIBLE);
-
-                series = new LineGraphSeries< >(dparray);
-                graph.addSeries(series);
-                textview.setText("Daily Sales Report");
-                return true;
-
-            default:
-                return super.onOptionsItemSelected(item);
+        if(dparray!=null){
+            graph = (GraphView) findViewById(R.id.graph);
+            //Button button = findViewById(R.id.addButton);
+            graph.setVisibility(View.VISIBLE);
+            series = new LineGraphSeries< >(dparray);
+            graph.addSeries(series);
         }
+
     }
     public  void addvalues(){
         ReportData d= new ReportData(bill_value, date);

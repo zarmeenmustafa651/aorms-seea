@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:hint="@string/hint_report"
+                android:hint="Sales Report"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/black"
                 android:textStyle="bold"
@@ -56,6 +56,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
             <com.jjoe64.graphview.GraphView
                 android:layout_width = "match_parent"
                 android:layout_height = "200dip"
