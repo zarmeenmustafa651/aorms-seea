@@ -9,18 +9,41 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.example.aorms.ui.main.ReportData;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
 public class Report extends AppCompatActivity {
     TextView textview;
     GraphView graph;
+    DatabaseReference dbRef, rep;
+    float bill_value;
+    Date date;
+    DataPoint[] dp;
+    ;
+    List<Date> D = new ArrayList<Date>();
+    List<Integer> B = new ArrayList<>();
+    List<ReportData> list= new ArrayList<ReportData>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,20 +56,32 @@ public class Report extends AppCompatActivity {
         //Button button = findViewById(R.id.addButton);
         graph.setVisibility(View.VISIBLE);
 
-        try {
-            DataPoint[] dp;
-            LineGraphSeries <DataPoint> series;
-            Random r = new Random();
-            dp=new DataPoint[4];
-            for(int i=2016,j=0;i<2020;i++){
-                dp[j]=new DataPoint(i,r.nextInt((100000 - 20000) + 1) + 20000);
-                j++;
+        dbRef = FirebaseDatabase.getInstance().getReference().child("Orders");
+        rep = FirebaseDatabase.getInstance().getReference().child("Report");
+
+        dbRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull final DataSnapshot dataSnapshot) {
+                OrderModel m = dataSnapshot.getValue(OrderModel.class);
+                bill_value= m.getBill();
+                date= Calendar.getInstance().getTime();
+                addvalues();
             }
-            series = new LineGraphSeries< >(dp);
-            graph.addSeries(series);
-        } catch (IllegalArgumentException e) {
-            Toast.makeText(Report.this, e.getMessage(), Toast.LENGTH_LONG).show();
-        }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+        LineGraphSeries <DataPoint> series;
+        DataPoint[] dparray= getvalues();
+        System.out.println(dparray);
+        graph = (GraphView) findViewById(R.id.graph);
+        //Button button = findViewById(R.id.addButton);
+        graph.setVisibility(View.VISIBLE);
+        series = new LineGraphSeries< >(dparray);
+        graph.addSeries(series);
+        textview.setText("Daily Sales Report");
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -60,49 +95,98 @@ public class Report extends AppCompatActivity {
         Random r = new Random();
         switch(item.getItemId()){
             case R.id.item1:
+
+               DataPoint[] dparray= getvalues();
                 graph = (GraphView) findViewById(R.id.graph);
                 //Button button = findViewById(R.id.addButton);
                 graph.setVisibility(View.VISIBLE);
-                dp=new DataPoint[30];
-                for(int i=1,j=0;i<31;i++){
-                    dp[j]=new DataPoint(i,r.nextInt((10000 - 2000) + 1) + 2000);
-                    j++;
-                }
-                series = new LineGraphSeries< >(dp);
+
+                series = new LineGraphSeries< >(dparray);
                 graph.addSeries(series);
                 textview.setText("Daily Sales Report");
                 return true;
-            case R.id.item2:
-                graph = (GraphView) findViewById(R.id.graph);
-                //Button button = findViewById(R.id.addButton);
-                graph.setVisibility(View.VISIBLE);
-                dp=new DataPoint[12];
-                for(int i=1,j=0;i<13;i++){
-                    dp[j]=new DataPoint(i,r.nextInt((100000 - 20000) + 1) + 20000);
-                    j++;
-                }
-                series = new LineGraphSeries< >(dp);
-                graph.addSeries(series);
-                textview.setText("Monthly Sales Report");
-                return true;
-            case R.id.item3:
-                graph = (GraphView) findViewById(R.id.graph);
-                //Button button = findViewById(R.id.addButton);
-                graph.setVisibility(View.VISIBLE);
-                dp=new DataPoint[4];
-                for(int i=2016,j=0;i<2020;i++){
-                    dp[j]=new DataPoint(i,r.nextInt((100000 - 20000) + 1) + 20000);
-                    j++;
-                }
-                series = new LineGraphSeries< >(dp);
-                graph.addSeries(series);
-                textview.setText("Yearly Sales Report");
-                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+    public  void addvalues(){
+        ReportData d= new ReportData(bill_value, date);
+        String id = rep.push().getKey();
+        rep.child(id).setValue(d);
+    }
+    public DataPoint[] getvalues(){
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
+        ref.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot)
+            {
+                DataSnapshot needRef = dataSnapshot.child("Report");
+                int i=0;
+                for (DataSnapshot snap : needRef.getChildren())
+                {
+                    String temptime = snap.child("Time").getValue().toString();
+                    int b = Integer.valueOf(snap.child("Bill").getValue().toString());
+                    SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+                    Date d = null;
+                    try {
+                        d = dateFormat.parse(temptime);
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
+                    D.add(d);
+                    B.add(b);
+                    i++;
+                }
+                dp = new DataPoint[i];
+                for (int j = 0; j < i; i++) {
+                    dp[i]= new DataPoint(D.get(j),B.get(j));
+                }
 
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
+
+
+
+
+
+        /*
+        rep.orderByChild("Bill");
+        rep.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull final DataSnapshot dataSnapshot) {
+                for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
+                    ReportData r1 = postSnapshot.getValue(ReportData.class);
+                    list.add(r1);
+                }
+
+            }
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+        int j= list.size();
+        float b;
+        Date dc;
+        dp = new DataPoint[j];
+        for (int i = 0; i < list.size(); i++) {
+            b= list.get(i).getbill();
+            System.out.println(b);
+            dc= list.get(i).getdate();
+            System.out.println(dc);
+            dp[i]= new DataPoint(dc,b);
+        }
+
+         */
+        return dp;
+    }
     public void btn(View view) {
         Intent i = new Intent(this, Login.class);
         startActivity(i);
